@@ -1,10 +1,7 @@
 entries:
-  - title: Emil Wallner on Building a €25000 Machine Learning Rig
-  - title: Sonia Joseph on NFTs, Web 3 and AI Safety
-  - title: Phil Trammell on Economic Growth under Transformative AI
-  - title: Slava Bobrov on Brain Computer Interfaces
-  - title: Charlie Snell on DALL-E and CLIP
-  - title: Sav Sidorov on Learning, Contrarianism and Robotics
-  - title: Evan Hubinger on Takeoff speeds, Risks from learned optimization & Interpretability
-  - title: Connor Leahy on GPT3, EleutherAI and AI Alignment
-  - title: Does the world really need another podcast?
+  - title: 'Episode list'
+    post_list:
+      limit: 10
+      show_more: false
+      show_more_text: See archive...
+      show_more_url: archive.html
