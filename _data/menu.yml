@@ -1,7 +1,17 @@
 entries:
-  - title: 'Episode list'
+  - title: 'Podcast episodes (with video, summary, transcripts)'
     post_list:
+      category: podcast
       limit: 10
       show_more: false
       show_more_text: See archive...
       show_more_url: archive.html
+  - title: 'Other videos'
+    post_list:
+      category: other
+      limit: 10
+      show_more: false
+      show_more_text: See archive...
+      show_more_url: archive.html
+  - title: 'About the podcast'
+    url: about
