@@ -15,4 +15,4 @@ On top of that, it's usually frown upon to discuss Artificial General Intelligen
 
 I occasionally make nice visuals that go together with the audio. See for instance the [episode with Phil Trammell](https://theinsideview.github.io/phil) on the econ of Transformative AI, or [the one with Charlie Snell](https://theinsideview.github.io/charlie) on AI Art.
 
-If you just want to watch the popular ones, you could start with the episode with [Connor Leahy on EleutherAI and GPT-3](https://theinsideview.github.io/connor), or with [Slava Bobrov on Brain-Computer Interfaces](https://theinsideview.github.io/slava).
+If you just want to watch the popular ones, you could start with the episode with [Connor Leahy on EleutherAI and GPT-3](https://theinsideview.github.io/connor), or with [Sonia Joseph on Web 3, NFTs and AI Safety](https://theinsideview.github.io/sonia).
