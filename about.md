@@ -13,6 +13,6 @@ For such an event, we don't have any other examples to do some reference class f
 
 On top of that, it's usually frown upon to discuss Artificial General Intelligence timelines in academia or in the AI industry, so I wanted to create a place where people could casually chat about those things without having to censor themselves.
 
-I occasionally make nice visuals that go together with the audio. See for instance the [episode with Phil Trammell](https://theinsideview.ai/phil) on the econ of Transformative AI, or [the one with Charlie Snell](https://theinsideview.ai/charlie) on AI Art.
+I occasionally make nice visuals that go together with the audio. See for instance the [episode with Phil Trammell](https://theinsideview.ai/phil) on the econ of Transformative AI, or [Charlie Snell  on AI Art](https://theinsideview.ai/charlie).
 
 I would suggest to start with the most popular ones, [Ethan Caballero on why Scale is all you need](https://theinsideview.ai/ethan) and [Connor Leahy on EleutherAI and GPT-3](https://theinsideview.github.io/connor).
