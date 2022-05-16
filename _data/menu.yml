@@ -8,10 +8,3 @@ entries:
       show_more: false
       show_more_text: See archive...
       show_more_url: archive.html
-  - title: 'Other videos'
-    post_list:
-      category: other
-      limit: 10
-      show_more: false
-      show_more_text: See archive...
-      show_more_url: archive.html
