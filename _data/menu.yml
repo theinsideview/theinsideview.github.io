@@ -1,7 +1,7 @@
 entries:
-  - title: 'About the podcast'
+  - title: 'About'
     url: about
-  - title: 'Podcast episodes (with video, summary, transcripts)'
+  - title: 'Episodes'
     post_list:
       category: podcast
       limit: 10
