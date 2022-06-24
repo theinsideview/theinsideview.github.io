@@ -4,7 +4,7 @@ entries:
   - title: 'Episodes'
     post_list:
       category: podcast
-      limit: 10
+      limit: 20
       show_more: false
       show_more_text: See archive...
       show_more_url: archive.html
