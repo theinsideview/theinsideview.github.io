@@ -38,7 +38,7 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
 
 **Alan**: What's your name?
 
-**Christoph**: Christoph, Christoph Schumann.
+**Christoph**: Christoph, Christoph Schuhmann.
 
 **Alan**: And what do you do?
 
