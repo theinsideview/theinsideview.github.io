@@ -34,7 +34,6 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
 * [Existential Risk From AI](#existential-risk-from-ai)
 # LAION
 
-## How LAION was created
 
 **Alan**: What's your name?
 
@@ -43,6 +42,8 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
 **Alan**: And what do you do?
 
 **Christoph**: Oh, I'm one of the founders and chairman of LAION. And LAION is a community of people who just like to do open source AI stuff.
+
+## How LAION was created
 
 **Alan**: What motivated you to start LAION?
 
