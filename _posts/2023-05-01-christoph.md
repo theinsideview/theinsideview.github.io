@@ -26,7 +26,7 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
     * [Why LAION Decided To Stay Independent, Relying On Volunteer Work](#why-laion-decided-to-stay-independent-relying-on-volunteer-work)
 * [What Should We Do About Misuse](#what-should-we-do-about-misuse)
     * [Most People Use Technology To Do Good Things](#most-people-use-technology-to-do-good-things)
-    * [On The Potential Impact Of Regulating Generative Models](#on-the-potential-impact-of-regulating-generative-models)
+    * [Regulating Generative Models Won't Lead Anywhere](#regulating-generative-models-wont-lead-anywhere)
     * [Reinforcement Learning Is No Different, We Should Always Double Check](#reinforcement-learning-is-no-different-we-should-always-double-check)
 * [What Should We Do As A Society](#what-should-we-do-as-a-society)
     * [Instead Of Slowing Things Down We Should Be Careful During Deployment](#instead-of-slowing-things-down-we-should-be-careful-during-deployment)
@@ -81,7 +81,7 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
 
 **Christoph**: But this is in my opinion completely independent from the question should the people who work in these companies, should they have also access to these superpowers? In my imagination, it's more "imagine a future where nation states and companies are flourishing and safe and pay taxes and everything's fine because the people who work there and the citizens they have these abilities to do cool stuff that they wouldn't have to." <a href="#outline">⬆</a>
 
-## On The Potential Impact Of Regulating Generative Models
+## Regulating Generative Models Won't Lead Anywhere
 
 **Alan**: So you mentioned something at the beginning about misuse so I think the example was something like "99% of people using AI systems are doing good thingsand like 1% are doing bad things and the idea is that you somehow kick out the 1%". So I think this is a nice ideabut my uncertainty, and the question I guess is, we're in a world right now where we are deploying generative models more and moreto people. We don't have such a system of you know kicking people out or preventing misuse right now like the 1% right?So from the perspective of somebody working onlinehow do you think about you know dealing with for example misinformation or increased bias now?
 
