@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Christoph Schuhmann on Open Source AI, Misuse and Existential risk"
-category: other
+category: podcast
 permalink: christoph
 youtubeId: -Mzfru1r_5s
 spotifyId:
@@ -32,7 +32,7 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
     * [Instead Of Slowing Things Down We Should Be Careful During Deployment](#instead-of-slowing-things-down-we-should-be-careful-during-deployment)
     * [The Solution To Societal Changes Is To Be Open And Flexible To Change](#the-solution-to-societal-changes-is-to-be-open-and-flexible-to-change)
     * [We Should Be Honest And Face The Tsunami](#we-should-be-honest-and-face-the-tsunami)
-    * [Beyond Educating People](#beyond-educating-people)
+    * [What Attitude To Keep After We Are Done Educating People](#what-attitude-to-keep-after-we-are-done-educating-people)
 * [Existential Risk From AI](#existential-risk-from-ai)
 
 # LAION
@@ -133,7 +133,7 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
 
 **Christoph**: So this development, this tsunami this information disinformation ai tsunami that's rolling upon our societies. It is coming and no single state or a single company will be able to hold it. To prevent it to keep it stop it from from approaching. The thing is do we close our eyes and say no, there's no tsunami. We are regulating everything trust us. We have trust us incorporate people and politicians or do we say it is there. Let's try to make the best out of it. And let's take openly about it. Let's let's probe this tsunami and let's talk about it in a like in an honest way. Let's be honest. Let's be honest with it. It will be there and like there will be jobs in 10 years that are not there anymore. and it's not about me or LAION or. Any company on the world? So we are not even a company either but like it's it's not about us. It's about the truth that the tsunami is coming and we should educate the people about it. <a href="#outline">⬆</a>
 
-## Beyond Educating People
+## What Attitude To Keep After We Are Done Educating People
 
 **Alan**: So what do we do beyond education?
 
