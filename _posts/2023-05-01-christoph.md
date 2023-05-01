@@ -4,7 +4,7 @@ title: "Christoph Schuhmann on Open Source AI, Misuse and Existential risk"
 category: podcast
 permalink: christoph
 youtubeId: -Mzfru1r_5s
-spotifyId:
+spotifyId: 1FEl3ZUC9k6GJmEDIqTLm5
 ---
 
 {% include youtubePlayer.html id=page.youtubeId %}
