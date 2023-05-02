@@ -37,15 +37,11 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
 
 # LAION
 
-**Alan**: What's your name?
-
-**Christoph**: Christoph, Christoph Schuhmann.
-
-**Alan**: And what do you do?
-
-**Christoph**: Oh, I'm one of the founders and chairman of LAION. And LAION is a community of people who just like to do open source AI stuff. <a href="#outline">⬆</a>
-
 ## How LAION was created 
+
+**Alan**: What do you do?
+
+**Christoph**: I'm one of the founders and chairman of [LAION](https://laion.ai/), a community of people who just like to do open source AI stuff. <a href="#outline">⬆</a>
 
 **Alan**: What motivated you to start LAION?
 
