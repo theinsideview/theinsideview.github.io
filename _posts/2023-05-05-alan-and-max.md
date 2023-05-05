@@ -20,69 +20,69 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 # Outline
 
-* [AI Safety and Evaluation]
-    * [LLMs Translating To Systems In The Future Is Confusing]
-    * [Deployed Models Haven't Showcased World-Changing Capabilities]
-    * [Evaluations Should Measure Actions Instead of Asking Yes or No Questions]
-    * [Identify Key Contexts for Dangerous Behavior to Write Concrete Evals]
-    * [Evaluations Could Be Too Late If AI Becomes Deceptively Aligned]
-    * [Develop Evals As Fast As Possible To Avoid Deceptive Alignment]
-    * [Differentiating Between Benchmarks and Evals in AI Development]
-    * [Imperfect Measures Can Lead To Misaligned AI Models]
-    * [Implicit Optimization Process Affects Evals and Benchmarks]
-    * [Passing Evals Doesn't Guarantee AI Safety]
-    * [Balancing Technical Evals With Social Governance]
-    * [Evaluations Must Be Convincing To Influence AI Development]
-* [Bridging AI Safety and AI Ethics]
-    * [Evals Might Convince The AI Safety Community But Not The Others]
-    * [Difficulty In Explaining AI Dangers To Other Communities]
-    * [Both Existential Safety And Fairness Are Important]
-* [Public Perception of AI Safety and Risks]
-    * [Reasons Why People Don't Care About AI X Risk]
-    * [AI Taking Over The World Is Hard To Grasp For Most People]
-    * [AI Safety And Silicon Valley Perception Disconnect]
-    * [Technology Is Viewed Differently In The AI Safety Community]
-    * [Timelines And Speed Of Progress Impact Perception Of AI Risks]
-    * [Reinforcement Learning Misconceptions Hinder AI Safety Awareness]
-    * [Differing Conceptions Of AI Complicate Discussions]
-    * [People Might Not Believe AI is a Threat Due to Its Unimaginable Nature]
-    * [AI Safety Concerns Shouldn't Be Ignored Due to Immediate AI Harms]
-* [The Importance of AI Safety Research]
-    * [AI Safety as a Gamble Worth Taking]
-    * [AI Capabilities Becoming More Evident to the Public]
-    * [AI's Impact on Jobs and Society Could Distract from Safety Concerns]
-    * [Addressing Generalization and Reward Specification in AI]
-    * [Evals as an Additional Layer of Security in AI Safety]
-    * [A Portfolio Approach to AI Alignment and Safety]
-    * [Alignment Is Really Hard And We Don't Have Much Time]
-    * [Agent Foundations Could Be Necessary For Understanding AI]
-    * [AI Safety Needs More Attention]
-* [Long-term Challenges and Uncertainties in AI Safety]
-    * [AGI Timelines Are Uncertain And Anchored By Vibes]
-    * [Advanced AI Systems Could Cause Damage Even Without AGI]
-    * [The World Post-AGI Deployment Is Uncertain]
-    * [Solving Alignment Is A Public Good]
-    * [Improving Coordination Is Difficult But Necessary]
-    * [Dignity As A Heuristic In The Face Of Doom]
-    * [Uncertainty About Societal Dynamics Affecting Long-Term Future With AGI]
-    * [Challenges In AI Safety: Moral Systems And Value Alignment]
-    * [AI Safety Includes Addressing Negative Consequences of AI]
-    * [Frustration: Lack of Bridge Building Between AI Safety and Fairness Communities]
-    * [More People Will Join AI Safety Community in the Future]
-    * [Building Bridges by Attending Conferences and Understanding Different Perspectives]
-    * [Technical Problems in Fairness and AI Safety Have Similarities]
-    * [AI Systems with Weird Instrumental Goals Pose Risks to Society]
-* [AI Risks, Cooperation, and Motivations]
-    * [Understanding X-Risks and S-Risks]
-    * [Existential Risks Could Result in Human Extinction or Lost Capacity for Greatness]
-    * [Suffering Risks Include Factory Farming, Dictatorships, and Wars]
-    * [Advanced AI Systems Controlling Resources Could Magnify Suffering]
-* [Cooperation and Motivations in AI Safety]
-    * [Cooperation Is Crucial to Achieve Pareto Optimal Outcomes and Avoid Global Catastrophes]
-    * [Cooperation Is Essential To Avoiding Catastrophic Outcomes]
-    * [AI Safety Research Is Driven By Desire To Reduce Suffering And Improve Lives]
-    * [Diverse Interests And Concern For Global Problems Led To AI Safety Research]
-    * [The Realization Of The Potential Dangers Of AGI Motivated AI Safety Work]
+* [AI Safety and Evaluation](#ai-safety-and-evaluation)
+    * [LLMs Translating To Systems In The Future Is Confusing](#llms-translating-to-systems-in-the-future-is-confusing)
+    * [Deployed Models Haven't Showcased World-Changing Capabilities](#deployed-models-haven't-showcased-world-changing-capabilities)
+    * [Evaluations Should Measure Actions Instead of Asking Yes or No Questions](#evaluations-should-measure-actions-instead-of-asking-yes-or-no-questions)
+    * [Identify Key Contexts for Dangerous Behavior to Write Concrete Evals](#identify-key-contexts-for-dangerous-behavior-to-write-concrete-evals)
+    * [Evaluations Could Be Too Late If AI Becomes Deceptively Aligned](#evaluations-could-be-too-late-if-ai-becomes-deceptively-aligned)
+    * [Develop Evals As Fast As Possible To Avoid Deceptive Alignment](#develop-evals-as-fast-as-possible-to-avoid-deceptive-alignment)
+    * [Differentiating Between Benchmarks and Evals in AI Development](#differentiating-between-benchmarks-and-evals-in-ai-development)
+    * [Imperfect Measures Can Lead To Misaligned AI Models](#imperfect-measures-can-lead-to-misaligned-ai-models)
+    * [Implicit Optimization Process Affects Evals and Benchmarks](#implicit-optimization-process-affects-evals-and-benchmarks)
+    * [Passing Evals Doesn't Guarantee AI Safety](#passing-evals-doesn't-guarantee-ai-safety)
+    * [Balancing Technical Evals With Social Governance](#balancing-technical-evals-with-social-governance)
+    * [Evaluations Must Be Convincing To Influence AI Development](#evaluations-must-be-convincing-to-influence-ai-development)
+* [Bridging AI Safety and AI Ethics](#bridging-ai-safety-and-ai-ethics)
+    * [Evals Might Convince The AI Safety Community But Not The Others](#evals-might-convince-the-ai-safety-community-but-not-the-others)
+    * [Difficulty In Explaining AI Dangers To Other Communities](#difficulty-in-explaining-ai-dangers-to-other-communities)
+    * [Both Existential Safety And Fairness Are Important](#both-existential-safety-and-fairness-are-important)
+* [Public Perception of AI Safety and Risks](#public-perception-of-ai-safety-and-risks)
+    * [Reasons Why People Don't Care About AI X Risk](#reasons-why-people-don't-care-about-ai-x-risk)
+    * [AI Taking Over The World Is Hard To Grasp For Most People](#ai-taking-over-the-world-is-hard-to-grasp-for-most-people)
+    * [AI Safety And Silicon Valley Perception Disconnect](#ai-safety-and-silicon-valley-perception-disconnect)
+    * [Technology Is Viewed Differently In The AI Safety Community](#technology-is-viewed-differently-in-the-ai-safety-community)
+    * [Timelines And Speed Of Progress Impact Perception Of AI Risks](#timelines-and-speed-of-progress-impact-perception-of-ai-risks)
+    * [Reinforcement Learning Misconceptions Hinder AI Safety Awareness](#reinforcement-learning-misconceptions-hinder-ai-safety-awareness)
+    * [Differing Conceptions Of AI Complicate Discussions](#differing-conceptions-of-ai-complicate-discussions)
+    * [People Might Not Believe AI is a Threat Due to Its Unimaginable Nature](#people-might-not-believe-ai-is-a-threat-due-to-its-unimaginable-nature)
+    * [AI Safety Concerns Shouldn't Be Ignored Due to Immediate AI Harms](#ai-safety-concerns-shouldn't-be-ignored-due-to-immediate-ai-harms)
+* [The Importance of AI Safety Research](#the-importance-of-ai-safety-research)
+    * [AI Safety as a Gamble Worth Taking](#ai-safety-as-a-gamble-worth-taking)
+    * [AI Capabilities Becoming More Evident to the Public](#ai-capabilities-becoming-more-evident-to-the-public)
+    * [AI's Impact on Jobs and Society Could Distract from Safety Concerns](#ai's-impact-on-jobs-and-society-could-distract-from-safety-concerns)
+    * [Addressing Generalization and Reward Specification in AI](#addressing-generalization-and-reward-specification-in-ai)
+    * [Evals as an Additional Layer of Security in AI Safety](#evals-as-an-additional-layer-of-security-in-ai-safety)
+    * [A Portfolio Approach to AI Alignment and Safety](#a-portfolio-approach-to-ai-alignment-and-safety)
+    * [Alignment Is Really Hard And We Don't Have Much Time](#alignment-is-really-hard-and-we-don't-have-much-time)
+    * [Agent Foundations Could Be Necessary For Understanding AI](#agent-foundations-could-be-necessary-for-understanding-ai)
+    * [AI Safety Needs More Attention](#ai-safety-needs-more-attention)
+* [Long-term Challenges and Uncertainties in AI Safety](#long-term-challenges-and-uncertainties-in-ai-safety)
+    * [AGI Timelines Are Uncertain And Anchored By Vibes](#agi-timelines-are-uncertain-and-anchored-by-vibes)
+    * [Advanced AI Systems Could Cause Damage Even Without AGI](#advanced-ai-systems-could-cause-damage-even-without-agi)
+    * [The World Post-AGI Deployment Is Uncertain](#the-world-post-agi-deployment-is-uncertain)
+    * [Solving Alignment Is A Public Good](#solving-alignment-is-a-public-good)
+    * [Improving Coordination Is Difficult But Necessary](#improving-coordination-is-difficult-but-necessary)
+    * [Dignity As A Heuristic In The Face Of Doom](#dignity-as-a-heuristic-in-the-face-of-doom)
+    * [Uncertainty About Societal Dynamics Affecting Long-Term Future With AGI](#uncertainty-about-societal-dynamics-affecting-long-term-future-with-agi)
+    * [Challenges In AI Safety: Moral Systems And Value Alignment](#challenges-in-ai-safety:-moral-systems-and-value-alignment)
+    * [AI Safety Includes Addressing Negative Consequences of AI](#ai-safety-includes-addressing-negative-consequences-of-ai)
+    * [Frustration: Lack of Bridge Building Between AI Safety and Fairness Communities](#frustration:-lack-of-bridge-building-between-ai-safety-and-fairness-communities)
+    * [More People Will Join AI Safety Community in the Future](#more-people-will-join-ai-safety-community-in-the-future)
+    * [Building Bridges by Attending Conferences and Understanding Different Perspectives](#building-bridges-by-attending-conferences-and-understanding-different-perspectives)
+    * [Technical Problems in Fairness and AI Safety Have Similarities](#technical-problems-in-fairness-and-ai-safety-have-similarities)
+    * [AI Systems with Weird Instrumental Goals Pose Risks to Society](#ai-systems-with-weird-instrumental-goals-pose-risks-to-society)
+* [AI Risks, Cooperation, and Motivations](#ai-risks,-cooperation,-and-motivations)
+    * [Understanding X-Risks and S-Risks](#understanding-x-risks-and-s-risks)
+    * [Existential Risks Could Result in Human Extinction or Lost Capacity for Greatness](#existential-risks-could-result-in-human-extinction-or-lost-capacity-for-greatness)
+    * [Suffering Risks Include Factory Farming, Dictatorships, and Wars](#suffering-risks-include-factory-farming,-dictatorships,-and-wars)
+    * [Advanced AI Systems Controlling Resources Could Magnify Suffering](#advanced-ai-systems-controlling-resources-could-magnify-suffering)
+* [Cooperation and Motivations in AI Safety](#cooperation-and-motivations-in-ai-safety)
+    * [Cooperation Is Crucial to Achieve Pareto Optimal Outcomes and Avoid Global Catastrophes](#cooperation-is-crucial-to-achieve-pareto-optimal-outcomes-and-avoid-global-catastrophes)
+    * [Cooperation Is Essential To Avoiding Catastrophic Outcomes](#cooperation-is-essential-to-avoiding-catastrophic-outcomes)
+    * [AI Safety Research Is Driven By Desire To Reduce Suffering And Improve Lives](#ai-safety-research-is-driven-by-desire-to-reduce-suffering-and-improve-lives)
+    * [Diverse Interests And Concern For Global Problems Led To AI Safety Research](#diverse-interests-and-concern-for-global-problems-led-to-ai-safety-research)
+    * [The Realization Of The Potential Dangers Of AGI Motivated AI Safety Work](#the-realization-of-the-potential-dangers-of-agi-motivated-ai-safety-work)
 
 # AI Safety and Evaluation
 
