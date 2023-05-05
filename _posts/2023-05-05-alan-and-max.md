@@ -194,89 +194,79 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max** (0:13:50): My original question was, why don't FATE people care about X risk? Or let's say even more broadly, what do you think stops the average Mila PhD for being like, shit, man, let me write some Alignment Forum Post right now. Okay, let's not say like, let's say like, care about X risk. <a href="#outline">⬆</a>
 
-# Public Perception of AI Safety and Risks
+# Public Perception of AI Safety and Existential Risk
 
-## Reasons Why People Don't Care About AI X Risk
+## Reasons Why People Don't Care About AI Existential Risk
 
-**Alan** (0:14:15): Yeah, I think there are a bunch of possible reasons. 
+**Alan** (0:14:15): Yeah, I think there are a bunch of possible reasons. I'm kind of not sure which ones are the most plausible.  I think I just have to like, talk to more people. One of them is, you know, AI is taking over the world. It's actually some wild shit. Like, if you stroll up to somebody on the street, and you're in five years, they're gonna be dead.  No, like, you'd be taken in.
 
-**Max** (0:14:18): I'm kind of not sure which ones are the most plausible.  <a href="#outline">⬆</a>
+**Alan**: I think firstly, you know, we should have to recognize like, yeah, this is actually wild. Like, if you know, you finished high school or university, you go straight to work, you don't really think about, you're not really exposed to the developments that have been happening in artificial intelligence is busy with like, your life, right, your job, your family, stuff that. This is like, totally out of left field. So I think we have to acknowledge that and like, try to explain things in a way that are more relatable to a greater extent than we have so far.
 
-## AI Taking Over The World Is Hard To Grasp For Most People
+## The Association Between Sillicon Valley And People in FATE
 
-**Alan** (0:14:21): I think I just have to like, talk to more people. One of them is, you know, AI is taking over the world. 
+**Alan**: I think another thing is, like, this is definitely not true of all people in AI safety, but there's almost this vibe that like, you know, besides existential risk, technology, yes. So maybe what I'm trying to say is like, the association that is in people's minds between the people who are in AI safety and the people in Silicon Valley. So I think like, there is this vibe from people in Silicon Valley, that technology is generally a good thing, and that it's going to solve social problems. I think this is in contrast to a lot of people's opinions in the AI Safety community who like, yeah, maybe they're not techno pessimists, but they're definitely a lot more pessimistic about technology than people in Silicon Valley, just looking at the history of ways in which technology has been misused, and has been used to discriminate against people more.
 
-**Max** (0:14:26): It's actually some wild shit. 
+**Alan**: And, you know, I think the people in the AI Safety community, you know, they look at like, the use of AI in society today, the increasing use of algorithms in places loan applications, or job applications. And they say, oh, like, these, like, clearly, these technologies are just reproducing harms that we've already had. So that might be this, like, sort of their starting mindset. And it might be hard to like, convince them otherwise, that there is like, actually another harm as well. The things you're talking about, they actually do happen, and we should try to fix them. But there's this related harm that we should also try to solve.
 
-**Alan** (0:14:28): Like, if you stroll up to somebody on the street, and you're in five years, 
+## Timelines And RL Understanding Might Impact The Perception Existential Risk From AI
 
-**Max** (0:14:32): they're gonna be dead. 
+**Max** (0:16:40): How much of it do you think is, you know, in the spirit of [The Inside View podcast](https://theinsideview.ai/), how much do you think it is about timelines and belief about speed of progress? Part of it. <a href="#outline">⬆</a>
 
-**Alan** (0:14:35): No, like, you'd be taken in. So I think firstly, you know, we should have to recognize like, yeah, this is actually wild. Like, if you know, you finished high school or university, you go straight to work, you don't really think about, you're not really exposed to the developments that have been happening in artificial intelligence is busy with like, your life, right, your 
+**Alan** (0:16:54): So a lot of people, I think, in the AI Safety community don't think that AIs could be like, classical RL agents pursuing goals in ways that misgeneralize to new environments. Yeah, I'm not even sure that like, a lot of people really know about reinforcement learning. Yeah, like, I've had a ton of conversations where, you know, I like, people express to me, oh, like, AIs are just tools, like, we're just designing them, like, you know, they're really just reproducing the data. And I'm like, well, like, have you heard of reinforcement learning? Like, we're literally designing agents to maximize, a reward function. This is all the problems of classical utilitarianism. They're like, oh, shit. I've never heard of this.
 
-**Max** (0:14:58): job, your family, stuff that.  <a href="#outline">⬆</a>
+**Alan**: Part of it might just be education that like, you know, literally, there are companies and research labs in academia whose goal is to build artificial general intelligence with something reinforcement learning. And like, they're just doing this. The vast majority of people aren't thinking about safety concerns. So I don't know, maybe telling people this might help.  <a href="#outline">⬆</a>
 
-## AI Safety And Silicon Valley Perception Disconnect <a href="#outline">⬆</a>
+## Agentic Models And Longtermism Hinder AI Safety Awareness
 
-## Technology Is Viewed Differently In The AI Safety Community
+**Max** (0:18:02): It sounds there's some underlying thing that, you know, like, let's say I or people in the x-risk community think of AI and they think of some agentic, like, you know, maximizing reward model. And you may be saying something like, "a lot of our practitioners, it's just not the conception or when they think of AI, that is just not what they see".  <a href="#outline">⬆</a>
 
-**Alan** (0:15:01): This is like, totally out of left field. So I think we have to acknowledge that and like, try to explain things in a way that are more relatable to a greater extent than we have so far. I think another thing is, like, this is definitely not true of all people in AI safety, but there's almost this vibe that like, you know, besides existential risk, technology, yes. So maybe what I'm trying to say is like, the association that is in people's minds between the people who are in AI safety and the people in Silicon Valley. So I think like, there is this vibe from people in Silicon Valley, that technology is generally a good thing, and that it's going to solve social problems. I think this is in contrast to a lot of people's opinions in the AI Safety community who like, yeah, maybe they're not techno pessimists, but they're definitely a lot more pessimistic about technology than people in Silicon Valley, just looking at the history of ways in which technology has been misused, and has been used to discriminate against people more. And, you know, I think the people in the AI Safety community, you know, they look at like, the use of AI in society today, the increasing use of algorithms in places loan applications, or job applications. And they say, oh, like, these, like, clearly, these technologies are just reproducing harms that we've already had. So that might be this, like, sort of their starting mindset. And it might be hard to like, convince them otherwise, that there is like, actually another harm as well. The things you're talking about, they actually do happen, and we should try to fix them. But there's this related harm that we should also try to solve. 
+**Alan** (0:18:24): Yeah, yeah, yeah. So I think, like, maybe there are two things here. The first thing is people believe that, okay, like, we don't actually have these kinds of AIs or maybe trying to build these kinds of AIs is unimaginable. But the second thing might just be, okay, they might believe that it's possible to build these AIs, but this is way, way too far off. And this is where I think the objection to longtermism comes in. And where I think like, I don't know, it's been sort of complicated with AI safety and longtermism. Maybe 20 years ago, like, longtermism was a stronger argument for AI safety. But I think now because of timelines, it seems that we don't really need longtermism to make the argument that we should care about AI safety. And like, maybe we just shouldn't talk about longtermism. If it turns people in certain communities off. <a href="#outline">⬆</a>
 
-**Max** (0:16:40): How much of it do you think is, you know, in the spirit of the InsideView podcast, how much do you think it is about timelines and belief about speed of progress? Part of it. <a href="#outline">⬆</a>
+## The Focus On Immediate AI Harms Might Be A Rejection Of Speculative Claims
 
-## Timelines And Speed Of Progress Impact Perception Of AI Risks
+**Alan**: Yeah, because I think the response that I get whenever I bring up AI safety or anything related to longtermism is, 'oh, okay, well, like, this might be true, but AI is already causing harm today. So we should focus on immediate harms.' And you know, like, I don't think this argument, like, really makes that much sense. And I'm not sure that the people expressing this argument, like, are actually expressing this argument. It seems they're expressing another objection, but it seems easier to say that, like, you know, we don't care about these harms, because they're not immediate.
 
-**Alan** (0:16:54): So a lot of people, I think, in the AI Safety community don't think that AIs could be like, classical RL agents pursuing goals in ways that misgeneralize to new environments. Yeah, I'm not even sure that like, a lot of people really know about reinforcement learning. Yeah, like, I've had a ton of conversations where, you know, I like, people express to me, oh, like, AIs are just tools, like, we're just designing them, like, you know, they're really just reproducing the data. And I'm like, well, like, have you heard of reinforcement learning? Like, we're literally designing agents to maximize, a reward function. This is all the problems of classical utilitarianism. They're like, oh, shit. I've never heard of this. So part of it might just be education that like, you know, literally, there are companies and research labs in academia whose goal is to build artificial general intelligence with something reinforcement learning. And like, they're just doing this. The vast majority of people aren't thinking about safety concerns. So I don't know, maybe telling people this might help.  <a href="#outline">⬆</a>
+**Alan**: Whereas, you know, if you look at the history of say, climate change, climate change was like, totally a speculative thing. In the 1800s, 1900s. And it's only through decades, or maybe a century of like, gradually building up evidence that we like, now we have this consensus, we don't think it's a speculative thing. Right. But even in like, I think, the 50s, or something, don't quote me on this. But like, there's like, definitely a history of climate change. Books and articles out there. In the 50s, we're still like, oh, like, we're not really sure still about like, the greenhouse effect.
 
-## Reinforcement Learning Misconceptions Hinder AI Safety Awareness
+**Alan**: But you know, like, based, I guess, on like, my preferred decision theory, it'd be like, well, like, we're not sure, but you know, it can be pretty bad. We put all the CO2 in the atmosphere. How about we work on some mitigations, right now in the 50s? Just in case, like, this might actually be a very hard problem to figure out. And like, it actually is right? Not even just like, technically speaking, but on a coordination basis, how do we actually get everybody together? So it's worth starting early, I think, in the case of climate change, and it seems it's also the case with AI safety. 
 
-**Max** (0:18:02): It sounds there's some underlying thing that, you know, like, let's say I or people in the exercise community think of AI and they think of some agentic, like, you know, maximizing reward. And you may be saying something like, a lot of our practitioners, it's just not the conception or when they think of AI, that is just not what they see.  <a href="#outline">⬆</a>
+## Is AI Safety A Pascal Mugging
 
-## Differing Conceptions Of AI Complicate Discussions <a href="#outline">⬆</a>
+**Max** (0:20:51): So do you think that, so I think you actually pointed something that at least I felt that I think a lot of the AI safety people are very happy to get Pascal Mugged in this sense. Like, I think this was my original motivation. I was like, well, like, maybe it'll be fine. And maybe like, this is all a bit uncertain, but maybe it's not. And it seems it's really impactful. Do you think you have to accept some level of like, of this reasoning, some level of like, oh, I don't know if it'll be good or bad. I don't know what's gonna happen. But I should work on it because it's gonna be impactful to work on AI safety. Or like, how do you see that changing at the moment? 
 
-## People Might Not Believe AI is a Threat Due to Its Unimaginable Nature
+**Alan** (0:21:26): Depends on how doomy you are. Yeah, I think personally, for me, it is like, sort of a gamble. I mean, I'm like, yeah, I mean, even if we don't sort of get the classical agent-y, AGI, I think things are still going to be so so wild with really good AI systems. There are going to be so many complicated societal feedback loops that we need to think about. 
 
-**Alan** (0:18:24): Yeah, yeah, yeah. So I think, like, maybe there are two things here. The first thing is people believe that, okay, like, we don't actually have these kinds of AIs or maybe trying to build these kinds of AIs is unimaginable. But the second thing might just be, okay, they might believe that it's possible to build these AIs, but this is way, way too far off. And this is where I think the objection to long termism comes in. And where I think like, I don't know, it's been sort of complicated with AI safety and long termism. Maybe 20 years ago, like, long termism was a stronger argument for AI safety. But I think now because of timelines, it seems that we don't really need long termism to make the argument that we should care about AI safety. And like, maybe we just shouldn't talk about long termism. If it turns people in certain communities off. Yeah, because I think the response that I get whenever I bring up AI safety or anything related to long termism is, oh, okay, well, like, this might be true, but AI is already causing harm today. <a href="#outline">⬆</a>
+**Alan** (0:21:50): Like, multipolar world seems more and more likely, right, with all these AI startups. What kind of things do we have there? Conflict now seems a much more important thing to worry about. So it's definitely a gamble, but I don't think it's a bad gamble to work on the space of preventing negative consequences from AI generally. 
 
-## AI Safety Concerns Shouldn't Be Ignored Due to Immediate AI Harms
+# The Impact Of AI In The Short And Medium Term
 
-**Alan**: So we should focus on immediate harms. And you know, like, I don't think this argument, like, really makes that much sense. And I'm not sure that the people expressing this argument, like, are actually expressing this argument, it seems they're expressing another objection, but it seems easier to say that, like, you know, we don't care about these harms, because they're not immediate. Whereas, you know, if you look at the history of say, climate change, climate change was like, totally a speculative thing. In the 1800s, 1900s. And it's only through decades, or maybe a century of like, gradually building up evidence that we like, now we have this consensus, we don't think it's a speculative thing. Right. But even in like, I think, the 50s, or something, don't quote me on this. But like, there's like, definitely a history of climate change. books and articles out there, in the, in the 50s, we're still like, oh, like, we're not really sure still about like, the greenhouse effect. But you know, like, based, I guess, on like, my preferred decision theory, it'd be like, well, like, we're not sure, but you know, it can be pretty bad. We put all the CO2 in the atmosphere. How about we work on some mitigations, right now in the 50s? Just just just in case, like, this might actually be a very hard problem to figure out. And like, it actually is right? Not even just like, technically speaking, but on a coordination basis, how do we actually get everybody together? So it's worth it starting early, I think, in the case of climate change, and it seems it's also the case with AI safety. 
+## Believing In The Deployment Of Large Foundational Models Should Be Enough To Start Worrying
 
-**Max** (0:20:51): So do you think that, so I think you actually pointed something that at least I felt that I think a lot of the AI safe people are very happy to get Pascal Mugged in this sense. Like, I think this was my original motivation. I was like, well, like, maybe it'll be fine. And maybe like, this is all a bit uncertain, but maybe it's not. And it seems it's really impactful. Do you think you have to accept some level of like, of this reasoning, some level of like, oh, I don't know if it'll be good or bad. I don't know what's gonna happen. But I should work on it because it's gonna be impactful to work on AI safety. Or like, how do you see that changing at the moment? 
+**Max** (0:22:16): So I have some model that the, and I think this is currently happening, that the field's going to change a lot. Like, you know, you have these big models coming out, you know, GPT-4 is rumored to be quite good.
 
-**Alan** (0:21:26): Depends on how doomy you are. Yeah, I think personally, for me, it is like, sort of a gamble. I mean, I'm like, yeah, I mean, even if we don't sort of get the classical agent-y, AGI, I think things are still going to be so so wild with really good AI systems. There are going to be so many complicated societal feedback loops that we need to think 
+**Alan**: When they release it.
 
-**Max** (0:21:49): about. 
+**Max**: When they finally start teasing releasing. 
 
-**Alan** (0:21:50): Like, multipolar world seems more and more likely, right, with all these AI startups. What kind of things do we have there? 
+**Alan** (0:22:33): They keep saying next week, every week. 
 
-**Max** (0:21:56): conflict now seems a much more important thing to worry about. <a href="#outline">⬆</a>
+**Max** (0:22:35): Every week, right. It's been, it's been, you know, if only we, yeah, who knows? Who knows what the gossip's at the moment? 
 
-# The Importance of AI Safety Research
+**Max**: I could have definitely imagined a world where in three to four years, you know, I often say something 2% of the American US population, adult population is in love with the multimodal model. You know, AI porn TikTok is causing massive decrease in GDP.
 
-## AI Safety as a Gamble Worth Taking
+**Alan**: Maybe
 
-**Alan** (0:22:00): So it's definitely a gamble, but I don't think it's a bad gamble to work on the space of preventing negative consequences from AI generally. 
-
-**Max** (0:22:16): So I have some model that the, and I think this is currently happening, that the field's going to change a lot. Like, you know, you have these big models coming out, you know, GPT-4 is rumored to be quite good. When they release it. When they finally start teasing releasing. 
-
-**Alan** (0:22:33): keep saying next week, every week. 
-
-**Max** (0:22:35): Every week, right. It's been, it's been, you know, if only we, yeah, who knows? Who knows what the gossip's at the moment? But yeah, and like, I could have definitely imagined a world where in three to four years, you know, I often say something 2% of the American US population, adult population is in love with the multimodal model. You know, AI porn TikTok is causing massive decrease in GDP. Maybe. You can only tell whether you have several online personas that are fully automated and it's kind of hard to tell what's going on. 
+**Max**: You can only tell whether you have several online personas that are fully automated and it's kind of hard to tell what's going on. 
 
 **Alan** (0:23:10): Let's say more than two years, let's say five. 
 
-**Max** (0:23:12): Yeah, at least. Let's say, let's say, let's say. And in these worlds where your medium person is like, you know, what is going on? And it's like, this is pretty crazy. It feels this calculus changes a bit. you no longer need to be kind of risk averse or kind of heavily convinced by abstract arguments about, you know, the V&M axioms to think that AI might be dangerous. In that set, A, how do you feel about this model? And B, how does it affect you, affect safety in general? And in particular, you as someone who worries about convincing people of the dangers? Yeah. 
+**Max** (0:23:12): Yeah, at least. Let's say, let's say, let's say. And in these worlds where your medium person is like, you know, what is going on? And it's like, this is pretty crazy. It feels this calculus changes a bit. you no longer need to be kind of risk averse or kind of heavily convinced by abstract arguments about, you know, the V&M axioms to think that AI might be dangerous. In that set, A, how do you feel about this model? And B, how does it affect you? Affect Safety in general? And in particular, you as someone who worries about convincing people of the dangers?
 
-**Alan** (0:24:01): Yeah, I have a lot of uncertainty about this. So I think on one hand, it could be good in the sense that, okay, you know, if everybody with their like, it's double diffusion, six. And GPT 10, they're like, okay, you know, I look at the world today, what is the labor I can do? 
+**Alan** (0:24:01): I have a lot of uncertainty about this. So I think on one hand, it could be good in the sense that, okay, you know, if everybody has like their stable six and GPT 10, they're like, okay, you know, I look at the world today, what is the labor that I can do?  Nothing.
 
-**Max** (0:24:20): Nothing. 
+**Alan** (0:24:21): I think that's a pretty wild world in a world in which people think, 'damn, these AI things, maybe we should, maybe we should regulate them'. So I think this is good to like, I guess, make AI capabilities sort of be known in the public. <a href="#outline">⬆</a>
 
-**Alan** (0:24:21): I think that's a pretty wild world in a world in which people think, damn, these AI things, maybe we should, maybe we should regulate them. So I think this is good to like, I guess, make AI capabilities sort of be known in the 
-
-**Max** (0:24:37): public. <a href="#outline">⬆</a>
-
-## AI Capabilities Becoming More Evident to the Public
+## AI Capabilities Becomign More Evident to the Public Might Not Be Enough
 
 **Alan** (0:24:40): I'm not sure this is enough, though. Because I think if people are just aware of systems stable diffusion, and really good text generation systems, the two things that are missing, I think, are the difficulty of alignment. And number two, generality, having an agent. So like, I think having an agent concern really motivates a lot of X risk. I think that is like, in some sense, trying to do something that is counter to your aims, or like, you know, pursuing an instrumental goal that is counter to your aim, that seems it'd be really bad. And I'm not sure like, we're able to impart that understanding just from really good 
 
