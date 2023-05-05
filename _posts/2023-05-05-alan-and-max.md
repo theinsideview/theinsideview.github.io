@@ -10,11 +10,11 @@ spotifyId:
 {% include youtubePlayer.html id=page.youtubeId %}
 {% include spotifyPlayer.html id=page.spotifyId %}
 
-Max Kaufmann and Alan Chan discuss AI Safety and the evaluation of large language models.
+[Max Kaufmann](https://maxkaufmann.com/) and [Alan Chan](https://scholar.google.ca/citations?user=lmQmYPgAAAAJ&hl=en) discuss the evaluation of large language models, AI Governance and more generally the impact of the deployment of foundational models.
 
-Max is currently a Research Assistant to Owain Evans, mainly interested in thinking about (and fixing) issues that might arise as we scale up our current ML systems.
+Max is currently a Research Assistant to [Owain Evans](https://owainevans.github.io/), mainly interested in thinking about (and fixing) issues that might arise as we scale up our current ML systems.
 
-Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest in AI Safety, and has worked with different AI Safety organisations such as the center for long term risk. He has also been recently working with David Krueger and helped me with some of the interviews that have been published recently ([ML Street talk](https://youtu.be/74VE_EBjg2Q) and [Christoph Schuhmann](https://youtu.be/-Mzfru1r_5s)).
+Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest in AI Safety, and has worked with different AI Safety organisations such as the center for long term risk. He has also been recently working with [David Krueger](https://theinsideview.ai/david) and helped me with some of the interviews that have been published recently ([ML Street talk](https://youtu.be/74VE_EBjg2Q) and [Christoph Schuhmann](https://youtu.be/-Mzfru1r_5s)).
 
 > Disclaimer: this discussion is much more casual than the rest of the conversations in this podcast. This was completely impromptu: I just thought it would be interesting to have Max and Alan discuss model evaluations (also called "evals" for short), since they are both interested in the topic.
 
@@ -172,9 +172,9 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 # Bridging AI Safety and AI Ethics
 
-## Evals Might Convince The AI Safety Community But Not People in FATE
+## Evals Might Convince The AI Safety Community But Not People in FAccT
 
-**Alan**: But you know, I think there's this big gap between people in AI safety or existential safety and people in other communities that also care about the impact of AI in society. people in FATE, fairness, accountability, transparency, and ethics. People generally in AI ethics. There's already a big difficulty in just explaining what is the danger here. And I think there's this big discourse outside of the AI safety community, the idea that AI's are just tools, they aren't agents, why it's so hard, you know, the difficulty is misuse, or in some sense, this lack of coordination between everybody and making things go bad. And AI's that exacerbate, you know, bad things that we have today, like oppression. I think these are all true
+**Alan**: But you know, I think there's this big gap between people in AI safety or existential safety and people in other communities that also care about the impact of AI in society. people in FAccT, fairness, accountability, transparency, and ethics. People generally in AI ethics. There's already a big difficulty in just explaining what is the danger here. And I think there's this big discourse outside of the AI safety community, the idea that AI's are just tools, they aren't agents, why it's so hard, you know, the difficulty is misuse, or in some sense, this lack of coordination between everybody and making things go bad. And AI's that exacerbate, you know, bad things that we have today, like oppression. I think these are all true
 
 **Alan**: But I think like, you know, the danger of AI's as agents is this separate category that's been very, very difficult to explain to other people for some reason. I'm not sure what kind of evals would be convincing to them. Like, maybe there needs to be much more consensus building, you know, on a philosophical basis of like, what are the things in common between what the things that people in X safety care about and the things that people in fate care about?
 
@@ -192,7 +192,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan** (0:13:21): This seems a concern to me that is like, yeah, I guess I find difficulty maybe giving a absolutely precise rating scale for how important things are. I guess I try to, in general, I try to find commonalities between causes I really care about to sort of do things that seem robustly good on both accounts. So yeah, and I think like, you know, my work in evals so far is an attempt to doing this.
 
-**Max** (0:13:50): My original question was, why don't FATE people care about X risk? Or let's say even more broadly, what do you think stops the average Mila PhD for being like, shit, man, let me write some Alignment Forum Post right now. Okay, let's not say like, let's say like, care about X risk. <a href="#outline">⬆</a>
+**Max** (0:13:50): My original question was, why don't FAccT people care about X risk? Or let's say even more broadly, what do you think stops the average Mila PhD for being like, shit, man, let me write some Alignment Forum Post right now. Okay, let's not say like, let's say like, care about X risk. <a href="#outline">⬆</a>
 
 # Public Perception of AI Safety and Existential Risk
 
@@ -202,7 +202,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: I think firstly, you know, we should have to recognize like, yeah, this is actually wild. Like, if you know, you finished high school or university, you go straight to work, you don't really think about, you're not really exposed to the developments that have been happening in artificial intelligence is busy with like, your life, right, your job, your family, stuff that. This is like, totally out of left field. So I think we have to acknowledge that and like, try to explain things in a way that are more relatable to a greater extent than we have so far.
 
-## The Association Between Sillicon Valley And People in FATE
+## The Association Between Sillicon Valley And People in FAccT
 
 **Alan**: I think another thing is, like, this is definitely not true of all people in AI safety, but there's almost this vibe that like, you know, besides existential risk, technology, yes. So maybe what I'm trying to say is like, the association that is in people's minds between the people who are in AI safety and the people in Silicon Valley. So I think like, there is this vibe from people in Silicon Valley, that technology is generally a good thing, and that it's going to solve social problems. I think this is in contrast to a lot of people's opinions in the AI Safety community who like, yeah, maybe they're not techno pessimists, but they're definitely a lot more pessimistic about technology than people in Silicon Valley, just looking at the history of ways in which technology has been misused, and has been used to discriminate against people more.
 
@@ -381,51 +381,59 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max** (0:37:37): Something that really annoys me in the safety community is this kind of villainization of places like DeepMind, OpenAI, and explicit, like, you know, talking about, let's say, Sam Altman or something. These people are caring, nice, genuine, intelligent, you know, future caring people. Demis as well. I do have some pretty good... Some pretty good hope that coordination there is very much possible. 
 
-**Alan** (0:38:12): Yeah, I think maybe this is kind of naive, but you know, we're all in this together. I think these are just people at the end of the day. Maybe we can't convince them, but we got to try until the last moment. 
+**Alan** (0:38:12): I think maybe this is kind of naive, but you know, we're all in this together. I think these are just people at the end of the day... Maybe we can't convince them, but we got to try until the last moment. This problem is so important. It'd be a shame if it just so happened. We're in the world in which coordination would have actually worked, but we just didn't try. How embarrassing would that be? 
 
-**Max** (0:38:24): this problem is so important. 
+**Max** (0:38:36): The [dignity](https://theinsideview.ai/connor2#the-dignity-heuristic-for-reward-shaping) is low. 
 
-**Alan** (0:38:27): It'd be a shame if it just so happened. We're in the world in which coordination would have actually worked, but we just didn't try. How embarrassing would that be? 
+**Alan** (0:38:40): So I think it totally makes sense to be pessimistic about solving all of this, about coordination, about alignment, about any other of the other stuff that could like, you know, go wrong, like S-risk. I think it totally makes sense. 
 
-**Max** (0:38:36): The dignity. Yeah, I don't know. 
+**Alan** (0:38:55): And like, I definitely don't want to judge anybody that has just like, you know, decided not to work on any of this because it's too depressing. Like, that's totally fair. This is super, super hard. But I think... I guess personally, my perspective is like, okay, you know, maybe this just comes from me having a lot of uncertainty about a lot of things in my life. So, you know, on the off-chance that we could actually make a difference, it seems worth it to try. Even if sort of maybe the objective belief is that, okay, maybe it's not worth trying if we actually did the EVs.  <a href="#outline">⬆</a>
 
-**Alan** (0:38:40): So I think it totally makes sense to be pessimistic about solving all of this, about coordination, about alignment, about any other of the other stuff that could like, you know, go wrong, S-risk. 
+## Dignity As AN Useful Heuristic In The Face Of Doom
 
-**Max** (0:38:53): I think it totally makes sense. 
-
-**Alan** (0:38:55): And like, I definitely don't want to judge anybody that has just like, you know, decided not to work on any of this because it's too depressing. Like, that's totally fair. This is super, super hard. But I think, I guess personally, my perspective is like, okay, you know, maybe this just comes from me having a lot of uncertainty about a lot of things in my life. So, you know, on the off chance that we could actually make a difference, it seems worth it to try. Even if sort of maybe the objective belief is that, okay, maybe it's not worth trying if we actually did the EVs.  <a href="#outline">⬆</a>
-
-## Dignity As A Heuristic In The Face Of Doom
-
-**Max** (0:39:29): I mean, I think this is a point that the extreme doers, I guess Yud, particularly makes this point where he says like, both in expectation, or he makes the point that in expectation, the focus should be something this. Like, do like, you know, do the thing that seems the most dignified or something this. 
+**Max** (0:39:29): I mean, I think this is a point that the extreme doomers, I guess Yud, particularly [makes this point](https://www.lesswrong.com/posts/j9Q8bRmwCgXRYAgcJ/miri-announces-new-death-with-dignity-strategy) where he says like, both in expectation, or he makes the point that in expectation, the focus should be something this. Like, do like, you know, do the thing that seems the most dignified or something like this. 
 
 **Alan** (0:39:52): Yeah, what does that mean actually? 
 
-**Max** (0:39:54): I guess he's just saying that like, he's trying to make the point that, like, because in his worldview, he's like, you know, a seven, nine is dead. Probably not that far away. And he makes the point that like, yeah, like, when you're acting in the face of trying to increase such small probabilities or acting in the face of causing a problem that seems so hard, you shouldn't follow the heuristic of like, what should I do to solve a line? And because everything seems doomed to you, you should be like, what's the most dignified way? Like, you know, it'd be more dignified if like, open AI and DeepMind at least did some coordination before like, some of the company went and built AGI. It'd be more dignified if like, we really tried to scale mechanistic interpretability, or had at least had EVs had some warning before it happened. And he claims that this is a more robust heuristic to follow. And also more motivating for oneself personally. 
+**Max** (0:39:54): I guess he's just saying that like, he's trying to make the point that, like, because in his worldview, he's like, you know, a several nines dead. Probably not that far away. And he makes the point that like, yeah, like, when you're acting in the face of trying to increase such small probabilities or acting in the face of causing a problem that seems so hard, you shouldn't follow the heuristic of like, what should I do to solve alignment? Because everything seems doomed to you.
+
+**Max**: You should be like, what's the most dignified way? Like, you know, it'd be more dignified if like, open AI and DeepMind at least did some coordination before like, some of the company went and built AGI. It'd be more dignified if like, we really tried to scale mechanistic interpretability, or had at least had evals had some warning before it happened. And he claims that this is a more robust heuristic to follow. And also more motivating for oneself personally.
 
 **Alan** (0:40:46): Oh, so the argument is like, you know, dignity isn't the thing we inherently care about. It's this heuristic that actually gets us to reduce risk. 
 
-**Max** (0:40:54): Yeah, he's like, particularly for him as a doomer, a proper doomer, he's like, oh, like, the framing shouldn't be, is this going to solve a line? Because nothing is. The framing is like, is this a more dignified world? Interesting. And that's kind of he approached the problem. He said it a lot more. He didn't phrase it as nicely as that. But, you know, I think this is his general point, which, you know, I think if you're good, makes sense. Also, I think I have some terminal like, value on humanity, like, I'd rather tried and like, at least have tried. 
+**Max** (0:40:54): Yeah, he's like, particularly for him as a doomer, a proper doomer, he's like, oh, like, the framing shouldn't be, is this going to solve a line? Because nothing is. The framing is like, is this a more dignified world? Interesting. And that's kind of he approached the problem. He said it a lot more. He didn't phrase it as nicely as that. But, you know, I think this is his general point, which, you know, I think if you're yud, makes sense. Also, I think I have some terminal like, value on humanity, like, I'd rather tried and like, at least have tried. 
 
-**Alan** (0:41:38): Yeah, that's right. That's right. Even when you know, it's hopeless, we just keep on trying. That's what we do. 
+**Alan** (0:41:38): Yeah, that's right. That's right. Even when you know it's hopeless, we just keep on trying. That's what we do. 
 
 **Max** (0:41:45): Yeah, I mean, I don't think I mean, I'm not that much of a doomer. So it doesn't apply that much to me. But it's interesting. 
 
 **Alan** (0:41:54): Man, if we did solve it, though, that'd be absolutely sick. 
 
-**Max** (0:41:58): Here's a question I have actually. So you're talking about, you care about the kind of, you know, fairness stuff, justice stuff. I think, obviously, terminally, which is like, people right now, the harms that are being done, I want them to slow down. But you also need to make some implication that like, even as a cold hearted, long term future caring totalitarian, you should care about this because these things might be locked in, or the society in the future might be locked in. I think I have some intuition. I'm not a completely big child. But at least I think a fair kind of pushback against this is the idea that like, there's just not that much time where society looks it does now. what you get is a kind of AGI thing. And you get like, self improvement for a bit. At some point, you just have like, a super intelligent God. And like, whatever that thing is doing, or whatever that thing wants to do is what decides what society looks like. Not necessarily the current dynamics or those dynamics, pushed into the future. How do you feel about that as a statement? 
+## What Will Society Look Like If We Actually Get Superintelligent Gods
 
-**Alan** (0:43:16): I think this is a possibility. But again, I have a lot of uncertainty about whether this will actually happen. I think, yeah, so maybe the thing that you're saying is, okay, we have this super intelligent AGI, it's like, somehow figured out like, what are the true human values that everybody cares about? And like, and make sure everything is okay, or at least gives us time to figure out all these human values. Yeah, like, I think that'd be great. I'm not sure this is actually going to happen, though. one is like, is CEV even possible? Number two, okay, suppose OpenAI has built the AGI, like, what do they do with it? I think like, A, the temptation to do something to instantiate, you know, your own values is just way, way too strong. If you actually have a God at your hands. Number two, I mean, even if they like, try not to do anything with it, like, I think for sure other parties are going to want that kind of power to the US government, China, maybe even other companies. What happens when there's conflict? What does OpenAI do? Do they just obliterate other entities? That's wild. If they did, I think for sure, like, general populace would be like, what the fuck is going on with OpenAI? Like, maybe we should go to war with this. This doesn't seem a good future, either. So I think there are just a lot of factors that like, maybe we actually do need to figure out right now, like, what is the game plan when we have AGI to ensure that like, we get that kind of future where we have the time to think about, okay, like, what are the things we actually want? And we have the like, the luxury, you know, to work on, okay, like, let's eliminate resource scarcity. Let's try to eliminate discrimination somehow, maybe not with the AGI. But like, because we don't have other problems, we can more focus our time and energy on these social problems.  <a href="#outline">⬆</a>
+**Max** (0:41:58): Here's a question I have actually. So you're talking about, you care about the kind of, you know, fairness stuff, justice stuff. I think, obviously, terminally, which is like, people right now, the harms that are being done, I want them to slow down. But you also need to make some implication that like, even as a cold hearted, long term future caring totalitarian, you should care about this because these things might be locked in, or the society in the future might be locked in.
+
+**Max**: I think I have some intuition. I'm not completely sure. But at least I think a fair kind of pushback against this is the idea that like, there's just not that much time where society looks it does now. What you get is a kind of AGI thing. And you get like, self improvement for a bit. At some point, you just have like, a superintelligent God. And like, whatever that thing is doing, or whatever that thing wants to do is what decides what society looks like. Not necessarily the current dynamics or those dynamics, pushed into the future. How do you feel about that as a statement? 
+
+**Alan** (0:43:16): I think this is a possibility. But again, I have a lot of uncertainty about whether this will actually happen. I think, yeah, so maybe the thing that you're saying is, okay, we have this superintelligent AGI, it's like, somehow figured out like, what are the true human values that everybody cares about? And like, and make sure everything is okay, or at least gives us time to figure out all these human values. Yeah, like, I think that'd be great.
+
+**Alan**: I'm not sure this is actually going to happen, though. One is like, is CEV even possible? Number two, okay, suppose OpenAI has built the AGI, like, what do they do with it? I think like, A, the temptation to do something to instantiate, you know, your own values is just way, way too strong. If you actually have a God at your hands.
+
+**Alan**: Number two, I mean, even if they like, try not to do anything with it, like, I think for sure other parties are going to want that kind of power too: the US government, China, maybe even other companies. What happens when there's conflict? What does OpenAI do? Do they just obliterate other entities? That's wild. If they did, I think for sure, like, general populace would be like, what the fuck is going on with OpenAI? Like, maybe we should go to war with this. This doesn't seem like a good future, either.
+
+**Alan**: So I think there are just a lot of factors that like, maybe we actually do need to figure out right now, like, what is the game plan when we have AGI to ensure that like, we get that kind of future where we have the time to think about, okay, like, what are the things we actually want? And we have the like, the luxury, you know, to work on, okay, like, let's eliminate resource scarcity. Let's try to eliminate discrimination somehow, maybe not with the AGI. But like, because we don't have other problems, we can more focus our time and energy on these social problems.  <a href="#outline">⬆</a>
 
 ## Uncertainty About Societal Dynamics Affecting Long-Term Future With AGI
 
-**Max** (0:45:10): Yes, as you say, Manda, something like, you still see societal dynamics affecting the long term future. Even in the face of incredibly advanced powerful systems, you think there's still there are actions and like, everything still changes based on what wider society looks as well.  <a href="#outline">⬆</a>
+**Max** (0:45:10): So you still see societal dynamics affecting the long term future. Even in the face of incredibly advanced powerful systems, you think there's still... there are actions and like, everything still changes based on what wider society looks as well. 
 
-## Challenges In AI Safety: Moral Systems And Value Alignment
+**Alan** (0:45:28): Yeah, yeah. So this all depends on the kind of AGI we have. So I think on the one hand, like, suppose that this AGI is in some sense, value free or value neutral. Okay, then like, it's going to be aligned. Okay, suppose we solve alignment, right, then it's going to be aligned with like, whoever's controlling it. Like, okay, if it's opening, then you run into the problems that I talked about. conflict, or just like, you know, some sort of dictatorship, or something.
 
-**Alan** (0:45:28): Yeah, yeah. So this all depends on the kind of AGI we have. So I think on the one hand, like, suppose that this AGI is in some sense, value free or value neutral. Okay, then like, it's going to be aligned. Okay, suppose we solve alignment, right, then it's going to be aligned with like, whoever's controlling it. Like, okay, if it's opening, then you run into the problems that I talked about. conflict, or just like, you know, some sort of dictatorship, or something. Okay, suppose that actually, in the meantime, like, we sort of solve parts of moral philosophy. So now this AGI actually has reasonable values that, you know, the vast majority of humanity would agree with, right. And even if, you know, its overseers think that you should do something, it actually doesn't, because it knows better in some sense.
+**Alan**: Okay, suppose that actually, in the meantime, like, we sort of solve parts of moral philosophy. So now this AGI actually has reasonable values that, you know, the vast majority of humanity would agree with, right. And even if, you know, its overseers think that you should do something, it actually doesn't, because it knows better in some sense.
 
-**Alan**: Okay, like, I think this seems like, sort of reasonable. But the difficulty is getting there. I don't think anybody's really working on this in the AI safety community of figuring out like, you know, what do we do about different moral systems, for instance? Like, like, what is the answer to moral uncertainty? Is it moral parliaments? Is it something else? Yeah, so like, it seems that the first, yeah, on the first path, I don't know, conflict seems pretty bad on the second path. Well, we haven't really done much work towards this. So I'm not very like, I think I'm not very optimistic about, you know, the world going well, even if we solve alignment technically. Yet, somebody should work on this, though. 
+**Alan**: Okay, like, I think this seems like, sort of reasonable. But the difficulty is getting there. I don't think anybody's really working on this in the AI safety community of figuring out like, you know, what do we do about different moral systems, for instance? What is the answer to moral uncertainty? Is it moral parliaments? Is it something else? It seems that the first, yeah, on the first path, I don't know, conflict seems pretty bad. On the second path, well, we haven't really done much work towards this. So I'm not very like, I think I'm not very optimistic about, you know, the world going well, even if we solve alignment technically. Yet, somebody should work on this, though. 
+
+## Biggest Frustration With The AI Safety Community
 
 **Max** (0:47:09): What's your biggest frustrations with the AI safety community? 
 
@@ -433,91 +441,93 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max** (0:47:23): Second channel. Yeah, frustrations. 
 
-**Alan** (0:47:30): Mark is definitely going to tweet this. Sorry, let me ask the question again. 
+**Alan** (0:47:30): Michaël is definitely going to tweet this. Sorry, let me ask the question again. 
 
 **Max** (0:47:36): What are your biggest frustrations with the AI safety community? 
 
-**Alan** (0:47:41): Frustrations. AI safety community frustrations. What is AI safety? 
-
-**Max** (0:47:51): Okay. Okay. Alan, in your opinion. Max. Right, let's go again. Alan, in your opinion, what is AI safety?  <a href="#outline">⬆</a>
-
 ## AI Safety Includes Addressing Negative Consequences of AI
 
-**Alan** (0:48:07): I think there's a broad version of this term. Maybe several broad versions of this term, and several narrow versions. So I think the narrow version, of course, is like, of course, meaning death between us. AI existential safety. So how do you prevent AI from being an existential risk to people, whether it's through empowerment or human extinction or something else? There's broader versions of the AI safety to that include more than existential risk. So you might include S risks, which care a lot about, like, suffering caused by artificial intelligence, either through conflict or something else. And I think there's an even broader notion of AI safety, which like, in my mind, this is the ideal definition of AI safety, and it encompasses literally everything. we care about all the negative consequences from AI, we try to draw the threads, between all these phenomena we're observing and core technical and social problems. So this includes things the things that people study in fairness. AI that like, aren't really able to, like, learn what our fairness judgments are. AI that just exacerbate discrimination that is already present in society and that is present in data sets that we use to train these AIs. So I think that's that broad definition, to me is the ideal definition, the one we can all get behind, you know, so that we can do things that we practically agree on, more regulation, slowing down AI development, more verification of AI systems before we deploy them. 
+**Max** (0:47:51): Alan, in your opinion, what is AI safety?
+
+**Alan** (0:48:07): I think there's a broad version of this term. Maybe several broad versions of this term, and several narrow versions. So I think the narrow version, of course, is like, of course, meaning death between us. AI existential safety. So how do you prevent AI from being an existential risk to people, whether it's through empowerment or human extinction or something else? There's broader versions of the AI safety to that include more than existential risk.
+
+**Alan**: So you might include S risks, which care a lot about, like, suffering caused by artificial intelligence, either through conflict or something else. And I think there's an even broader notion of AI safety, which like, in my mind, this is the ideal definition of AI safety, and it encompasses literally everything. we care about all the negative consequences from AI, we try to draw the threads, between all these phenomena we're observing and core technical and social problems.
+
+**Alan**: This includes things the things that people study in fairness. AI that like, aren't really able to, like, learn what our fairness judgments are. AI that just exacerbate discrimination that is already present in society and that is present in datasets that we use to train these AIs. So I think that's that broad definition, to me is the ideal definition, the one we can all get behind, you know, so that we can do things that we practically agree on, more regulation, slowing down AI development, more verification of AI systems before we deploy them. 
 
 **Max** (0:49:39): Okay, given that definition, and maybe focusing on the narrow AI safety, X risk definition, what's your biggest frustration with the community or the set of people that currently works on, insofar that they are able to be homogenized? Maybe you should go into more specific subsets of this community. But yeah, the people that worry about the X risk AI safety.  <a href="#outline">⬆</a>
 
 ## Frustration: Lack of Bridge Building Between AI Safety and Fairness Communities
 
-**Alan** (0:50:11): So I haven't actually been doing this for that long. I think I've been doing like, I guess I've been considering myself a part of this community for like, maybe a year and a half, two years ish. So like, basically just for my PhD. Yeah, so I mean, in the short amount of time, I think it's been pretty great. So far, just finding people who care about the same things that I do and are motivated to work. Similarly, I think this is definitely a big like, anti frustration, I guess it's like, I think it's very frustrating working on something by yourself. And thinking you're the only person around you who cares about the problem. And everybody else thinks you're on the crazy train or something. Yeah, maybe one frustration, though, is I think it'd be a lot better if more people in the AIX safety community were like, more explicitly wanting to build bridges to other communities that also care about safety in the broad, broad sense. So in particular, and to the fairness, and ethics communities, just because I think coordination is a super important thing for us to be doing. It might even be a low hanging fruit to slow down AI development and make sure we don't face negative consequences. Yeah, I guess that'd be the main thing for me. 
+**Alan** (0:50:11): So I haven't actually been doing this for that long. I think I've been doing like, I guess I've been considering myself a part of this community for like, maybe a year and a half, two years-ish. So like, basically just for my PhD. Yeah, so I mean, in the short amount of time, I think it's been pretty great. So far, just finding people who care about the same things that I do and are motivated to work. Similarly, I think this is definitely a big like, anti frustration.
+
+**Alan**: I guess it's like, I think it's very frustrating working on something by yourself. And thinking you're the only person around you who cares about the problem. And everybody else thinks you're on the crazy train or something. Yeah, maybe one frustration, though, is I think it'd be a lot better if more people in the AIX safety community were like, more explicitly wanting to build bridges to other communities that also care about safety in the broad, broad sense. So in particular, and to the fairness, and ethics communities, just because I think coordination is a super important thing for us to be doing. It might even be a low hanging fruit to slow down AI development and make sure we don't face negative consequences. Yeah, I guess that'd be the main thing for me.
+
+## More People Could Join The AI Safety Community in the Future
 
 **Max** (0:51:31): Do you see this community changing a lot? Like, let's say, by this community, let's say the set of people that if you ask them, what do you do? They would say something along the lines of, I work to ensure that X risk from AI doesn't happen. Do you think you see that set of people changing a lot in the next few years? <a href="#outline">⬆</a>
 
-## More People Will Join AI Safety Community in the Future
-
-**Alan** (0:51:58): I think more people are gonna get on the train, same train as we are on right now. Yeah. You know, AI is being deployed much more. These ridiculous generative models. It's wild when you're put out of a job by an AI in 2025. Maybe we predict to 2060. Right? So this is a good thing. I guess I hope that like, you know, and getting more people on this train, we also make sure that we repair the bridges that don't exist or have been burned between the different safety communities. <a href="#outline">⬆</a>
+**Alan** (0:51:58): I think more people are gonna get on the train, same train as we are on right now. Yeah. You know, AI is being deployed much more. These ridiculous generative models. It's wild when you're put out of a job by an AI in 2025. Maybe we predicted 2060. Right? So this is a good thing. I guess I hope that like, you know, by getting more people on this train, we also make sure that we repair the bridges that don't exist or have been burned between the different safety communities. <a href="#outline">⬆</a>
 
 ## Building Bridges by Attending Conferences and Understanding Different Perspectives
 
-**Max** (0:52:34): Not sure how this is gonna happen. But I think a good first step is just talking to people going to the places that they frequent, like, you know, I think definitely some AI safety people AIX safety people should just go to fact, the biggest conference in fairness that's held yearly and just like, talk to people about concerns, we should submit papers there, we should like, actually try to understand fact people are saying, you know, do some show social theory, like, you know, like, study some psychology. Like, really think about, like, how AIs are going to interact with society. Like, maybe as well, we should try to develop, like, some sort of, I guess, a point of view that is not just techno optimist, like, you know, even if we solve alignment, what are the problems that are that are left? 
-
-**Max** (0:53:34): How similar do you think the technical problems are between the fairness community and the air safety community? Somewhat similar.  <a href="#outline">⬆</a>
+**Alan** (0:52:34): Not sure how this is gonna happen. But I think a good first step is just talking to people going to the places that they frequent, like, you know, I think definitely some AI safety people AIX safety people should just go to fact, the biggest conference in fairness that's held yearly and just like, talk to people about concerns, we should submit papers there, we should like, actually try to understand fact people are saying. You know, do some show social theory, like, you know, like, study some psychology. Like, really think about, like, how AIs are going to interact with society. Like, maybe as well, we should try to develop, like, some sort of, I guess, a point of view that is not just techno optimist, like, you know, even if we solve alignment, what are the problems that are that are left? 
 
 ## Technical Problems in Fairness and AI Safety Have Similarities
 
-**Alan** (0:53:51): So I think one particular technical problem in fairness is what... So in a particular context, let's say, I don't know, hiring in this particular country 
+**Max** (0:53:34): How similar do you think the technical problems are between the fairness community and the AI safety community?  <a href="#outline">⬆</a>
 
-**Max** (0:54:09): with this particular historical context. 
+**Alan** (0:53:51):  Somewhat similar. I think one particular technical problem in fairness is what... So in a particular context, let's say, I don't know, hiring in this particular country with this particular historical context. 
 
-**Alan** (0:54:14): What do we do? Like, what are the conceptions of fairness that are at play here? Can we learn these things and formalize them in a certain way so that we can actually try to understand what's going on and come to a consensus about what we're doing? I think the techniques that we're coming up with in air safety are super, super relevant 
+**Alan** (0:54:14): What do we do? Like, what are the conceptions of fairness that are at play here? Can we learn these things and formalize them in a certain way so that we can actually try to understand what's going on and come to a consensus about what we're doing? I think the techniques that we're coming up with in AI Safety are super, super relevant for this. 
 
-**Max** (0:54:32): for this. 
+**Alan** (0:54:33): If we do RLHF to actually learn people's preferences, then we study the reward functions. I think that might give us valuable insight, actually, about what people actually think about in fairness. 
 
-**Alan** (0:54:33): If we do RLHF to actually learn people's preferences, then we study the reward functions. I think that might give us valuable insight, actually, about what people actually think 
+**Alan** (0:54:44): I think general stuff too. Anytime we think about generalization problems in AI safety, these are also relevant in fairness because fairness problems aren't just one shot, 'oh, the train test distribution are going to be the same'. Things are changing in the real world as well. So totally, I think that thing is also relevant.
 
-**Max** (0:54:42): about in fairness. 
-
-**Alan** (0:54:44): I think general stuff too. Anytime we think about generalization problems in air safety, these are also relevant in fairness because fairness problems aren't just one shot, oh, the train test distribution are going to be the same. Things are changing in the real world as well. So totally, I think that thing is also relevant. Another thing is just all the stuff about instrumental goals and reinforcement learning systems and agents. If we're going to be deploying algorithms in society that make consequential decisions about people's welfare, well, these are going to be decisions that are going to be made over time. In making decisions over time, we don't want the AI systems we're deploying to do really weird things, have really weird instrumental goals. So I think the connection to me seems pretty clear, but it hasn't been communicated well,  <a href="#outline">⬆</a>
+**Alan**: Another thing is just all the stuff about instrumental goals and reinforcement learning systems and agents. If we're going to be deploying algorithms in society that make consequential decisions about people's welfare, well, these are going to be decisions that are going to be made over time. In making decisions over time, we don't want the AI systems we're deploying to do really weird things, have really weird instrumental goals. So I think the connection to me seems pretty clear, but it hasn't been communicated well, which is pretty unfortunate. <a href="#outline">⬆</a>
 
 ## AI Systems with Weird Instrumental Goals Pose Risks to Society
 
-**Max** (0:55:36): which is pretty unfortunate. You have a center of long-term risk, Hodyam. I do. I do. It's a size too small, I think. I think so as well. You're a size too vain. Well played, well played. What's this whole S-risk thing? 
+**Max** (0:55:36): You have a center of long-term risk, Hodyam. 
+
+**Alan**: I do. I do. It's a size too small, I think.
+
+**Max**: I think so as well.
+
+**Michaël**: Or a size too big.
+
+**Max**: Well played, well played. What's this whole S-risk thing? 
 
 **Alan** (0:56:02): S-risks, okay. 
 
 **Max** (0:56:03): Well, to learn... 
 
-**Alan** (0:56:04): Maybe also X-risk. 
+**Michaël** (0:56:04): Maybe also X-risk. 
 
-**Max** (0:56:05): Sure. What's this whole X-risk, S-risk, C-risk? I'm not sure what C-risk is, but... It's catastrophic. Oh, I see, I see. <a href="#outline">⬆</a> 
+**Max** (0:56:05): Sure. What's this whole X-risk, S-risk, C-risk?
+
+**Alan**: I'm not sure what C-risk is, but...
+
+**Max**: It's catastrophic risk.
 
 # AI Risks, Cooperation, and Motivations
 
 ## Understanding X-Risks and S-Risks
 
-**Alan** (0:56:10): Right, right. Those things. 
+**Alan** (0:56:20): X-risk is existential risk. I think of this as problems that would either result in human extinction or in the lost capacity of humans to do things in the future. And maybe when I say things, I mean great things. Maybe when I think about great things, this is somewhat valuated. I mean, I think it'd be pretty cool if we traveled the stars, we see another species and try to help them. I don't know. 
 
-**Max** (0:56:12): Yeah. So I think that's it. I think that's it. I think that's it. I think that's it. I think that's it. I think that's it. I think that's it.  <a href="#outline">⬆</a>
+**Alan** (0:56:55): There seem to be a lot of things we could do in the universe, improve our understanding, really just go through and review our history and try to become better agents. All of this becomes impossible if we're extinct or if we are trapped on a planet that has had all of the resources depleted. 
 
-## Existential Risks Could Result in Human Extinction or Lost Capacity for Greatness
+**Alan**: So that to me is an existential risk. An S-risk is a suffering risk. So these are things that could cause really, really lots of suffering in the world. So what are some examples of things that cause a lot of suffering today? Factory farming, arguably. It's absolutely terrible how we treat our animals today. What are the things that could cause a lot of suffering?
 
-**Alan** (0:56:20): So X-risk is existential risk. I think of this as problems that would either result in human extinction or in the lost capacity of humans to do things in the future. And maybe when I say things, I mean great things. Maybe when I think about great things, this is somewhat valuated. I mean, I think it'd be pretty cool if we traveled the stars, we see another species 
+**Max**: Dictatorships.
 
-**Max** (0:56:51): who try to help them. I don't know. 
-
-**Alan** (0:56:55): There seem to be a lot of things we could do in the universe, improve our understanding, really just go through and review our history and try to become better agents. All of this becomes impossible if we're extinct or if we are trapped on a planet that has 
-
-**Max** (0:57:11): had all of the resources depleted.  <a href="#outline">⬆</a>
-
-## Suffering Risks Include Factory Farming, Dictatorships, and Wars
-
-**Alan** (0:57:14): So that to me is an existential risk. An S-risk is a suffering risk. So these are things that could cause really, really lots of suffering in the world. So what are some examples of things that cause a lot of suffering today? Factory farming, arguably. 
-
-**Max** (0:57:32): It's absolutely terrible how we treat our animals today. What are the things that could cause a lot of suffering? Dictatorships. Dictatorships, yeah. 
+**Alan**: Dictatorships, yeah. 
 
 **Alan** (0:57:48): Malevolence is a lot of... 
 
-**Max** (0:57:50): Simulation. 
+**Michaël** (0:57:50): Simulation. 
 
 **Alan** (0:57:51): Yeah, so I guess there are some more mundane things than there are things that are a bit more hypothetical but seem they could happen given the technologies that we're developing right now. 
 
@@ -525,124 +535,120 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan** (0:58:04): There's factory farming. I think there's also just wars. So not just the death tolls and wars themselves, but what war brings with it. So just disease, malnutrition, general instability. 
 
-**Max** (0:58:20): That seems to have caused a huge amount of suffering in human history. 
-
-**Alan** (0:58:25): So that's sort of the more mundane things. I mean mundane, I mean it's they're still pretty bad. The things that we already know. And then there are things that maybe we don't have yet but we could have. So hypothetically, if we manage to become a galaxy-faring civilization and we spread factory farming to the stars, trillions and trillions of animals are suffering in factory 
-
-**Max** (0:58:45): farms. It just seems horrific.  <a href="#outline">⬆</a>
+**Max** (0:58:20): That seems to have caused a huge amount of suffering in human history. <a href="#outline">⬆</a>
 
 ## Advanced AI Systems Controlling Resources Could Magnify Suffering
 
-**Alan** (0:58:47): Another thing is, okay, suppose that we have really, really good AI systems that control large portions of the Earth's resources or the solar system's resources or the galaxy's 
+**Alan** (0:58:25): So that are sort of the more mundane things. I mean mundane, I mean it's they're still pretty bad. The things that we already know. And then there are things that maybe we don't have yet but we could have. So hypothetically, if we manage to become a galaxy-faring civilization and we spread factory farming to the stars, trillions and trillions of animals are suffering in factory farms. It just seems horrific.  
 
-**Max** (0:58:57): resources. 
+**Alan** (0:58:47): Another thing is, okay, suppose that we have really, really good AI systems that control large portions of the Earth's resources or the solar system's resources or the galaxy's resources. 
 
-**Alan** (0:58:58): Well, if they engage in conflict wars, that also seems really, really bad. Our war is multiplied by a million or something. So I'm working at SRISC, just to really map out what are the causes of suffering and how can we act to reduce them. So I think one difference between XRISC and SRISC is where you start from in terms of what you care about in your moral theories. People in SRISC really, really care about suffering. I would say they prioritize this to differing extents over pleasure. If you have equivalent amounts of suffering and pleasure, you would definitely prefer reducing the suffering more by one unit than increasing somebody's pleasure or happiness 
+**Alan** (0:58:58): Well, if they engage in conflict wars, that also seems really, really bad. Our war is multiplied by a million or something. So I'm working in s-risk, just to really map out what are the causes of suffering and how can we act to reduce them. So I think one difference between x-risk and s-risk is where you start from in terms of what you care about in your moral theories. People in s-risk really, really care about suffering. I would say they prioritize this to differing extents over pleasure. If you have equivalent amounts of suffering and pleasure, you would definitely prefer reducing the suffering more by one unit than increasing somebody's pleasure or happiness by another unit.
 
-**Max** (0:59:41): by another unit. And insofar you can speak for the Center for Long-Term Risk? 
+**Max** (0:59:41): And insofar you can speak for the Center for Long-Term Risk? 
 
 **Alan** (0:59:53): I cannot. 
 
-**Max** (0:59:54): I cannot speak. You cannot speak. Too many info houses. I mean, I was just an intern. I don't work there as a full-time employee. Where do you think your views differ the most from the mainstream AI safety research? <a href="#outline">⬆</a>
+**Max** (0:59:54): I cannot speak. You cannot speak. Too many infohazards.
 
-# Cooperation and Motivations in AI Safety
+**Alan**: I mean, I was just an intern. I don't work there as a full-time employee. <a href="#outline">⬆</a>
+
+# Cooperation and Motivations in AI Safety 
 
 ## Cooperation Is Crucial to Achieve Pareto Optimal Outcomes and Avoid Global Catastrophes
 
-**Alan** (1:00:17): I think suffering is important. I think cooperation is pretty important work. Yeah, so I mean, I think this has been a common answer. I have a lot of uncertainty about this. I think I'm still in the process of figuring this out because SRISC are still kind of new to me. Yeah, I guess what I differ the most is I care about cooperation. 
+**Max**: Where do you think your views differ the most from the mainstream AI safety research? 
 
-**Max** (1:00:42): I think it's important to get this work done. What do you mean by cooperation? Sorry, in this context.  <a href="#outline">⬆</a>
+**Alan** (1:00:17): I think suffering is important. I think cooperation is pretty important work. Yeah, so I mean, I think this has been a common answer. I have a lot of uncertainty about this. I think I'm still in the process of figuring this out because s-risks are still kind of new to me. I guess what I differ the most is I care about cooperation. I think it's important to get this work done.
 
-## Cooperation Is Essential To Avoiding Catastrophic Outcomes
+**Max**: What do you mean by cooperation in this context?
 
-**Alan** (1:00:49): Yeah, so cooperation meaning suppose you have two agents, they're in some sort of game. How do you make sure that the outcome is actually a Pareto optimal outcome? So for example, if you're both playing a game of chicken. How do you make sure you don't crash into each other and cause an astronomical loss? Because maybe one agent is this nation that has a nuclear stockpile. And this other agent is another nation that has a nuclear stockpile. And these two nations together are the entire Earth. They have huge empires. A game of chicken is like, okay, you both launch nukes at each other because you've gone to the brink. We definitely don't want that kind of thing happening. 
+**Alan** (1:00:49): Yeah, so cooperation meaning suppose you have two agents, they're in some sort of game. How do you make sure that the outcome is actually a Pareto optimal outcome? So for example, if you're both playing a game of chicken. How do you make sure you don't crash into each other and cause an astronomical loss? 
 
-**Max** (1:01:32): Don't lose your shoes. Team's losing their shoes. Confiscate them. What else? 
+**Alan**: Because maybe one agent is this nation that has a nuclear stockpile. And this other agent is another nation that has a nuclear stockpile. And these two nations together are the entire Earth. They have huge empires. A game of chicken is like, okay, you both launch nukes at each other because you've gone to the brink. We definitely don't want that kind of thing happening. 
 
 **Alan** (1:01:45): Are you one boxing or are you two boxing? 
 
-**Max** (1:01:48): I think a lot of us, we brought you here to find out about your origin stories. How did Mr. Alan Chan come to wear the hoodie that sent a long-term risk, come to call himself an AI safety researcher? Well, I just took this hoodie from the CRLs. Okay, but the other bit. 
+# Alan Chan
 
-**Alan** (1:02:13): The other bit. Okay. Yeah, where should I begin? 
+## Alan's Origin Story
 
-**Max** (1:02:15): How far back? 
+**Max** (1:01:48): I think a lot of us, we brought you here to find out about your origin stories. How did Mr. Alan Chan come to wear the hoodie that says center of long-term risk, comes to call himself an AI safety researcher?
 
-**Alan** (1:02:16): I think you know what I want to hear from birth. September 1st, 1996. Probably at night, probably 12am or something. Okay, I was born in Edmonton, Alberta, Canada to two parents who are immigrants from Vietnam. So, yeah. How much detail? Just whatever is necessary to understand. 
+**Alan**: Well, I just took this hoodie from the CLR office
 
-**Max** (1:02:41): To live as if we're in your shoes.  <a href="#outline">⬆</a>
+**Max**: Okay, but the other bit. 
 
-## AI Safety Research Is Driven By Desire To Reduce Suffering And Improve Lives
+**Alan** (1:02:13): The other bit. Okay. Yeah, where should I begin? How far back? 
+
+**Max** (1:02:16): I think you know what I want to hear from birth. 
+
+**Alan**: September 1st, 1996. Probably at night, probably 12am or something. Okay, I was born in Edmonton, Alberta, Canada to two parents who are immigrants from Vietnam. How much detail?
+
+**Max**: Just whatever is necessary to understand. To live as if we're in your shoes.  <a href="#outline">⬆</a>
+
+## Alan's AI Safety Research Is Driven By Desire To Reduce Suffering And Improve Lives
 
 **Alan** (1:02:43): Yeah, so I don't know. Why do I work on AI safety? So, I think part of it is, why do I work on things that could go wrong, I guess? 
 
-**Max** (1:02:56): I don't know. No, I'm wanting the story. It's play by play. What made, from, you know, let's say starting your undergrad to sitting down here. What happened? 
+**Max** (1:02:56): I don't know. No, I'm wanting the story. Play by play. What made, from, you know, let's say starting your undergrad to sitting down here. What happened? 
 
 **Alan** (1:03:09): Yeah, okay. I think there's a little bit more to this than the undergrad. I think this also depends on how I ended up developing my moral motivations. Why didn't I just go and be an investment banker? And literally just a regular investment banker. None of that earning to give stuff.
 
-**Alan** (1:03:27): Yeah, I mean, I think part of it is my upbringing. I think my family is pretty Buddhist. In Buddhism, you care a lot about reducing the suffering in the world. Particularly, my mother cares a lot about Buddhism and reducing suffering. So, I think just growing up in an environment made me care about these things as well. And to the extent that I saw suffering in the world, whether it was on the news or interpersonally, that seemed a really bad thing. So, I think that's one part of it. Another part is just being exposed to the things that I think make life really worth living. Just hanging out with your friends, doing fun things, trying new foods, traveling. So, I think both the upside and the downside that I was able to experience in my life, I think made me believe that, okay, it seems really important to remove the downsides for as many people as we can. To make sure that people can actually experience the upside in life. So, I think that's general motivation for working on social causes or causes to reduce risk in some very general sense. So, I think I spent a lot of time doing a lot of searching and thinking for what sorts of things I could work on.  <a href="#outline">⬆</a>
+**Alan** (1:03:27): Yeah, I mean, I think part of it is my upbringing. I think my family is pretty Buddhist. In Buddhism, you care a lot about reducing the suffering in the world. Particularly, my mother cares a lot about Buddhism and reducing suffering. So, I think just growing up in an environment made me care about these things as well. And to the extent that I saw suffering in the world, whether it was on the news or interpersonally, that seemed like a really bad thing.
+
+**Alan**: I think that's one part of it. Another part is just being exposed to the things that I think make life really worth living. Just hanging out with your friends, doing fun things, trying new foods, traveling. So, I think both the upside and the downside that I was able to experience in my life, I think made me believe that, okay, it seems really important to remove the downsides for as many people as we can. To make sure that people can actually experience the upside in life. 
+
+**Alan**: I think that's the general motivation for working on social causes or causes to reduce risk in some very general sense. <a href="#outline">⬆</a>
 
 ## Diverse Interests And Concern For Global Problems Led To AI Safety Research
 
-**Alan** (1:05:00): I tried out a bunch of volunteering for various causes in high school and university  just to see what things might be interesting for me. I think this was good to the extent that I learned a lot more about things that are wrong in the world. I got really into social justice. I think, how did I get into AI safety? It was kind of in my latter part of my undergraduate, going into my master's. So, I did a math degree during my undergraduate. I did a math degree mostly because I didn't really know what exactly I wanted to do. Math just seemed a robustly good thing and gave me the flexibility to take a lot of other things that I was also really interested in, linguistics and political science. And I also do a lot of debate where I talked about a bunch of this stuff too. So, yeah, I guess having a diverse range of interests made it really hard to focus in on a particular thing. I think I still want to during my PhD, just try a bunch of different things. Maybe this is a difficulty in getting concrete projects out. So, yeah, at the end of my bachelor's degree, I was like, well, what do I do now with a math degree? Nothing I've tried has been super, super convincing to me. I don't really want to be a mathematician. It was nice, but it seems being a pure mathematician doesn't really have a lot of impact. In the near or medium term future, it seems there are more important problems than being a pure mathematician. And more problems to work on, climate change or global health. So then I started thinking, okay, so what are the things that could really, really make the world turn out bad? Or could have a really big impact on the world in my lifetime, say? AI, I think, happened to be one of those things that I was thinking about. So I thought, okay, maybe I should go into AI. So I spent about a year just reading a lot about this and thinking, okay, where is AI going? Why do I think that it could actually be a really big thing? So I think solidifying those intuitions took a year. 
+**Alan** (1:05:00): I think I spent a lot of time doing a lot of searching and thinking for what sorts of things I could work on. I tried out a bunch of volunteering for various causes in high school and university just to see what things might be interesting for me. I think this was good to the extent that I learned a lot more about things that are wrong in the world. I got really into social justice.
 
-**Max** (1:07:12): And at this point, I was doing a master's. 
+**Alan**: How did I get into AI safety? It was kind of in my latter part of my undergraduate, going into my master's. So, I did a math degree during my undergraduate. I did a math degree mostly because I didn't really know what exactly I wanted to do. Math just seemed a robustly good thing and gave me the flexibility to take a lot of other things that I was also really interested in, linguistics and political science.
 
-**Alan** (1:07:15): It wasn't the ideal master's, but I later switched advisors and it was a lot better for me. So yeah, in the middle of my master's, I switched to doing AI. I started off with reinforcement learning. And it was really fun. And I really enjoyed the environment that I was put in. Just having people who cared also about AI and who also thought that it could be a really big thing. But in the course of my master's, I guess I thought, okay, this is a reinforcement learning lab. So I was at the University of Alberta. This is a reinforcement learning lab. These people actually want to build a GI. I don't know. This seems kind of concerning to me. I had this intuition. Okay, what the fuck, though? Artificial general intelligence? Could it do some bad things, maybe? I finished my master's in 2020. So I guess in the middle of COVID, I was sort of thinking, trying to grapple with these questions. Also, just noticing or just living through COVID and also the George Floyd protests. I was like, okay, real shit actually happens in the world. I'm living through history. Maybe something wild could actually happen. And something I'm personally involved in. Every day, AI. So I started to read a lot more about AI safety.  Superintelligence and stuff.  <a href="#outline">⬆</a>
+**Alan**: And I also did a lot of debate where I talked about a bunch of this stuff too. I guess having a diverse range of interests made it really hard to focus in on a particular thing. I think I still want to, during my PhD, just try a bunch of different things. Maybe this is a difficulty in getting concrete projects out.
+
+**Alan**: At the end of my bachelor's degree, I was like, well, what do I do now with a math degree? Nothing I've tried has been super, super convincing to me. I don't really want to be a mathematician. It was nice, but it seems being a pure mathematician doesn't really have a lot of impact. In the near or medium term future, it seems there are more important problems than being a pure mathematician. And more problems to work on, climate change or global health. So then I started thinking, okay, so what are the things that could really, really make the world turn out bad? Or could have a really big impact on the world in my lifetime, say?
+
+**Alan**: AI, I think, happened to be one of those things that I was thinking about. So I thought, okay, maybe I should go into AI. So I spent about a year just reading a lot about this and thinking, okay, where is AI going? Why do I think that it could actually be a really big thing? So I think solidifying those intuitions took a year. 
+
+**Alan** (1:07:12): And at this point, I was doing a master's. It wasn't the ideal master's, but I later switched advisors and it was a lot better for me. So yeah, in the middle of my master's, I switched to doing AI. I started off with reinforcement learning. And it was really fun. And I really enjoyed the environment that I was put in. Just having people who cared also about AI and who also thought that it could be a really big thing.
+
+**Alan**: But in the course of my master's, I guess I thought, okay, this is a reinforcement learning lab. So I was at the University of Alberta. This is a reinforcement learning lab. These people actually want to build AGI. I don't know. This seems kind of concerning to me. I had this intuition. Okay, what the fuck, though? Artificial general intelligence? Could it do some bad things, maybe?
+
+**Alan**: I finished my master's in 2020. So I guess in the middle of COVID, I was sort of thinking, trying to grapple with these questions. Also, just noticing or just living through COVID and also the George Floyd protests. I was like, okay, real shit actually happens in the world. I'm living through history. Maybe something wild could actually happen. And something I'm personally involved in. Every day, AI. So I started to read a lot more about AI safety.  Superintelligence and stuff.  <a href="#outline">⬆</a>
 
 ## The Realization Of The Potential Dangers Of AGI Motivated AI Safety Work
 
-**Alan** (1:08:42): A little bit of alignment form and less wrong. I remember I was reading superintelligence and I was like, damn, this is true. Shit, is somebody working on this? Then I thought, well, maybe I should work on this. And I think having that feeling that, wow, this is a thing I should work on was a pretty life-changing moment. Because I think before, I guess, 2019-ish, when you learn about history in school, it's sort of like, okay, these things happened to these people. And damn, we have the world we have today. But to some extent, you feel sort of distanced from what happened. These people are so far removed. 
+**Alan** (1:08:42): A little bit of Alignment Forum and Lesswrong. I remember I was reading Superintelligence and I was like, damn, this is true. Shit, is somebody working on this? Then I thought, well, maybe I should work on this. And I think having that feeling that, wow, this is a thing I should work on was a pretty life-changing moment.
 
-**Max** (1:09:24): How can you ever relate to them? 
+**Alan**: Because I think before, I guess, 2019-ish, when you learn about history in school, it's sort of like, okay, these things happened to these people. And damn, we have the world we have today. But to some extent, you feel sort of distanced from what happened. These people are so far removed. How can you ever relate to them? 
 
-**Alan** (1:09:26): But we're living through history right now. 
+**Alan** (1:09:26): But we're living through history right now. We lived through a pandemic. We're living through an increase in geopolitical tensions. We're living through a lot of really concerning developments in artificial intelligence. While we're living through history, that means we can affect it. 
 
-**Max** (1:09:28): We live through a pandemic. 
+**Alan**: I think that moment, maybe it was more a gradual development. Made me think that I could actually do something about this problem. I applied for PhD programs. I didn't apply for AI safety, though. I was still sort of unsure whether I wanted to fully devote all my time to this. But I got into a PhD program at Mila.  
 
-**Alan** (1:09:30): We're living through an increase in geopolitical tensions. We're living through a lot of really concerning developments in artificial intelligence. While we're living through history, that means we can affect it. So I think that moment, maybe it was more a gradual development. Made me think that I could actually do something about this problem. I applied for PhD programs. 
+**Alan** (1:10:09): I started doing research. But basically, immediately, I really tried hard to shift my research from reinforcement learning to doing AI safety. It took a while. And I think I'm still sort of learning how to do AI safety research well and figuring out what the most valuable thing to do is. But I think it's been going pretty well. And I'm really glad I made that decision to switch. 
 
-**Max** (1:09:58): I didn't apply for AI safety, though. 
+## What is Alan Chan Working On At The Moment
 
-**Alan** (1:10:00): I was still sort of unsure whether I wanted to fully devote all my time to this. But I got into a PhD program at Miele. 
+**Max** (1:10:31): Nice. And right now, what you're working on? What are you working on?
 
-**Max** (1:10:07): I started doing research. 
+**Alan**: So I'm trying to finish up a paper with [CLR](https://longtermrisk.org/). 
 
-**Alan** (1:10:09): But basically, immediately, I really tried hard to shift my research from reinforcement learning to doing AI safety. It took a while. And I think I'm still sort of learning how to do AI safety research well and figuring out what the most valuable thing to do is. But I think it's been going pretty well. And I'm really glad I made that decision to switch. 
-
-**Max** (1:10:31): Nice. And write a second what you're working on. What I'm working on. So I'm trying to finish up a paper with CLR. 
-
-**Alan** (1:10:40): We are trying to evaluate the cooperativity of language models. So the really interesting thing, I think, is, okay, you can construct a data set, get people to write scenarios for you if you want. But we can't do that. 
-
-**Max** (1:10:52): We can construct a data set for you if you want. 
+**Alan** (1:10:40): We are trying to evaluate the cooperativity of language models. So the really interesting thing, I think, is, okay, you can construct a data set, get people to write scenarios for you if you want. 
 
 **Alan** (1:10:54): But we actually want our ability to generate evaluations to scale with the capabilities of our models. So we're getting language models to generate scenarios for us. Basically, scenarios that involve some cooperation. And seeing what language models do in these kinds of scenarios. 
 
-**Max** (1:11:10): That's the first thing I'm working on. 
+**Alan** (1:11:10): That's the first thing I'm working on. I also have just a bunch of other projects right now that are in varying stages of completion or feasibility. One thing I'm really interested in is how are we actually able to show people that models are actually much more capable than might be claimed by some people.
 
-**Alan** (1:11:12): I also have just a bunch of other projects right now that are in varying stages of completion or feasibility. One thing I'm really interested in is how are we actually able to show people that models are actually much more capable than might be claimed by some people. Yeah. Another thing I'm working on is this general, almost position paper slash survey paper on speculative concerns in AI safety. It's essentially going to be an argument that it's important to speculate for cause areas. And review, okay, what are the methodologies and the ways in which people have speculated in AI safety? 
+**Alan**: Another thing I'm working on is this general, almost position paper slash survey paper on speculative concerns in AI safety. It's essentially going to be an argument that it's important to speculate for cause areas. And review what are the methodologies and the ways in which people have speculated in AI safety? 
 
-**Max** (1:11:54): What has worked out? What hasn't? 
-
-**Alan** (1:11:56): And why do we still need to continue on coming up with things that might appear more speculative to modern machine learning communities? But are actually important, I think, in pointing out possible problems we might face. 
+**Alan** (1:11:54): What has worked out? What hasn't? And why do we still need to continue on coming up with things that might appear more speculative to modern machine learning communities? But are actually important, I think, in pointing out possible problems we might face. 
 
 **Max** (1:12:08): Is this aimed at machine learning people, this position paper? 
 
 **Alan** (1:12:11): Yeah, so it's aimed at the academic machine learning community. I think a lot of what I... Yeah, parts of what I want to do are sort of more aimed at, okay, like, how can we field build or build bridges effectively? By either connecting our concerns to concerns that other people have, or by just saying things in language that other people can more understand. 
 
-**Max** (1:12:38): Nice. I don't know. I'm not sure what else I got for Mr. Allen. 
-
-**Alan** (1:12:50): Alright, Max. Max Kaufman. 
-
-**Max** (1:12:53): Alright, I was meant to do work today, but I'm kind of memeing. 
-
-**Alan** (1:12:58): Alright, go on. ASL. 
-
-**Max** (1:13:02): ASL, let me just stand up and stretch for a second. Bro, I was trying to... Is this quite a fun job? 
-
-**Alan** (1:13:12): Pretty fun. 
-
-**Max** (1:13:14): This is kind of a vibe. Yeah, I feel I might have to... Maybe there needs to be some competition in this podcast. Turn down the monopoly. Why compete? Good point, good point, good point. 
-
-**Alan** (1:13:31): Put my money where my mouth is. 
-
-**Max** (1:13:33): Yeah, it's good vibes. 
+**Max** (1:12:38): Nice. I don't know. I'm not sure what else I got for Mr. Alan.
