@@ -268,53 +268,45 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 ## AI Capabilities Becomign More Evident to the Public Might Not Be Enough
 
-**Alan** (0:24:40): I'm not sure this is enough, though. Because I think if people are just aware of systems stable diffusion, and really good text generation systems, the two things that are missing, I think, are the difficulty of alignment. And number two, generality, having an agent. So like, I think having an agent concern really motivates a lot of X risk. I think that is like, in some sense, trying to do something that is counter to your aims, or like, you know, pursuing an instrumental goal that is counter to your aim, that seems it'd be really bad. And I'm not sure like, we're able to impart that understanding just from really good 
+**Alan** (0:24:40): I'm not sure this is enough, though. Because I think if people are just aware of systems stable diffusion, and really good text generation systems, the two things that are missing, I think, are the difficulty of alignment. And number two, generality, having an agent. So like, I think having an agent concern really motivates a lot of X risk. I think that is like, in some sense, trying to do something that is counter to your aims, or like, you know, pursuing an instrumental goal that is counter to your aim, that seems it'd be really bad. And I'm not sure like, we're able to impart that understanding just from really good generative models. 
 
-**Max** (0:25:15): generative models. 
+**Alan** (0:25:17): Number two is like, the difficulty of alignment, like, I think, you know, like, you're some, you're somebody in like, 2035, you know, you've finished high school, you finished university now, like, you don't have a job, you'll never have a job ever again. Like, who do you blame for this? I'm not sure you blame the lack of alignment techniques, I think you blame the corporations, right?
 
-**Alan** (0:25:17): Number two is like, the difficulty of alignment, like, I think, you know, like, you're some, you're somebody in like, 2035, you know, you're, you've finished high school, you finished university now, like, you don't have a job, you'll never have a job ever again. Like, who do you blame for this? I'm not sure you blame the lack of alignment techniques, I think you blame the corporations, 
+**Alan**: Or you blame the entire system that has gotten us to this point. Like, we've created a world in which okay, there is like, no UBI, there's no other social safety net, which have these corporations making money. And so now like, you're stuck in this state of precarity. Like, I don't think you care about existential safety necessarily. Is this worse than the world we're in now? In terms of getting people to care about existential safety? I'm really not sure. 
 
-**Max** (0:25:42): right? <a href="#outline">⬆</a>
-
-## AI's Impact on Jobs and Society Could Distract from Safety Concerns
-
-**Alan** (0:25:43): Or you blame the entire system that has gotten us to this point. Like, we've created a world in which okay, there is like, no UBI, there's no other social safety net, which have these corporations making money. And so now like, you're stuck in this state of precarity. Like, I don't think you care about existential safety necessarily. is this worse than the world we're in now? In terms of getting people to care about safety, I'm really not sure. 
-
-**Max** (0:26:10): Okay, so you kind of see this as an orthogonal, a slightly orthogonal kind of problem to the agency ex-risky thing, which needs to be solved as well.  <a href="#outline">⬆</a>
+**Max** (0:26:10): Okay, so you kind of see this as an orthogonal, a slightly orthogonal kind of problem to the agency existnail risk thing, which needs to be solved as well?  <a href="#outline">⬆</a>
 
 ## Addressing Generalization and Reward Specification in AI
 
-**Alan** (0:26:23): Yeah, like, I guess to say more like, I mean, I think we need to solve like, almost generalization 
-
-**Max** (0:26:30): stuff. 
-
-**Alan** (0:26:31): And like, you know, specification of good rewards. But like, in my mind, like, if we have these really capable, generative models, people when interacting with them, they're gonna be like, Oh, you know, like, haven't we solved these things already? You know, like, when I say like, generate me really good 3d porn, like, amazing 3d porn. So I mean, I think they might be like, Oh, like, what is even a lie of it? 
-
-**Max** (0:26:56): Like, they just do exactly as I ask. So then, and you may see like, would it be fair to say that you see evals in such a world than causing people to focus more on the ex-risky agency outcomes?  <a href="#outline">⬆</a>
+**Alan** (0:26:23): I mean, I think we need to solve like, goal misgeneralization. And specification of rewards. But like, in my mind, like, if we have these really capable, generative models, people are going to be interacting with them, they're gonna be like, Oh, you know, like, haven't we solved these things already? You know, like, when I say like, generate me really good 3d porn, like, amazing 3d porn. So I mean, I think they might be like, Oh, like, what even is Alignment? They're doing exactly as I ask.
 
 ## Evals as an Additional Layer of Security in AI Safety
 
-**Alan** (0:27:22): Possibly, yep. So I think I see evals as like, in general, work, just as just adding layers of security. So okay, maybe this is enough to get people on the AI safety train. But we don't know. It seems we should be trying as hard as possible to get people on the like, AI is ridiculous train. 
+**Max** (0:26:56): Would it be fair to say that you see evals in such a world as causing people to focus more on the x-risky agency outcomes?  <a href="#outline">⬆</a>
 
-**Max** (0:27:45): Okay, so it's less of a, you know, defense in depth or something it's another thing that someone should be doing. And you've decided that as part of the wider strategic picture, evals are some important  <a href="#outline">⬆</a>
+**Alan** (0:27:22): Possibly, yep. So I think I see evals as like, in general, work, just as just adding layers of security. So okay, maybe this is enough to get people on the AI safety train. But we don't know. It seems we should be trying as hard as possible to get people on the like, 'AI is ridiculous train'. 
+
+**Max** (0:27:45): Okay, so it's less of a, you know, defense in depth or something. It's another thing that someone should be doing. And you've decided that as part of the wider strategic picture, evals are some important part.  <a href="#outline">⬆</a>
 
 ## A Portfolio Approach to AI Alignment and Safety
 
-**Alan** (0:27:58): part. Yeah, maybe some people call this a portfolio approach. I call this I'm a naturally, you know, very uncertain person approach. I want to cover all my bases, just in case some things fail. 
+**Alan** (0:27:58): Yeah, maybe some people call this a portfolio approach. I call this "I'm a naturally, you know, very uncertain person" approach. I want to cover all my bases, just in case some things fail. 
 
-**Max** (0:28:11): Do you... Okay, so maybe a wider question then. How wide? So, you've kind of spoken about this idea that evals are some smaller part of a wider portfolio of alignment. And because of your own uncertainty, you're kind of working on this, it seems robustly good. What do you see as some of the promising directions in this space? 
+**Max** (0:28:11): Do you... Okay, so maybe a wider question then.
 
-**Alan** (0:28:35): when you're like, if you found out, you know, if you got transported to 2040... 2040. 
+**Alan**: How wide?
 
-**Max** (0:28:40): Paul Cristiano's like, you bump into Paul and Paul's just celebrating. He's like, man, we've done it. It's happened. 
+## Imagine Alignment Is Solved In 2040, What Made It Happen?
 
-**Alan** (0:28:47): Alignment is solved. 
+**Max**: You've kind of spoken about this idea that evals are some smaller part of a wider portfolio of alignment. And because of your own uncertainty, you're kind of working on this, it seems robustly good. What do you see as some of the promising directions in this space?
 
-**Max** (0:28:48): And you look out and you know, the light cone is smiling and joyous. It's so wide. 
+**Max**: When you're like, if you found out, you know, if you got transported to 2040... 2040. 
 
-**Alan** (0:28:54): Yeah, it's like, wow, what happened? 
+**Max** (0:28:40): Paul Cristiano's like, you bump into Paul and Paul's just celebrating. He's like, man, we've done it. It's happened. Alignment is solved. And you look out and you know, the lightcone is smiling and joyous.
 
-**Max** (0:28:57): You know, apart from evals, obviously evals win. 
+**Alan**: It's so wide.
+
+**Max**: Yeah, it's like, wow, what happened?  You know, apart from evals, obviously evals win. 
 
 **Alan** (0:28:59): Evals, yeah, for sure. I'm picking up some prizes on the way. 
 
@@ -324,107 +316,70 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max** (0:29:06): Let's say, maybe it's a better question.  <a href="#outline">⬆</a>
 
-## Alignment Is Really Hard And We Don't Have Much Time
+## Agent Foundations Might Be Needed And We Don't Have Much Time
 
 **Alan** (0:29:08): So yeah, maybe to answer your first question, what am I optimistic about? Not a lot right now, because I think alignment is really hard and we don't have much time, less than 10 years to solve it, either on a coordination basis by getting people to not build AGI or on a technical basis, actually formulating and operationalizing a problem and developing a nice proof. 
 
-**Max** (0:29:30): Right. <a href="#outline">⬆</a>
+**Max** (0:29:30): Eventually we will have to do something agent foundations to really understand like, what are these things optimization and agency? Like, what are values. How do we actually load them into agents? What are we even doing? Right now, it seems we're sort of poking around in the dark with deep learning and RLHF. And it's like, okay, you know, on these data sets, it seems to work out fine. We're not really sure if it's going to work on other data sets. We're not really sure how to define agency in terms of our deep learning systems. 
 
-## Agent Foundations Could Be Necessary For Understanding AI
+**Alan** (0:30:06): So it's kind of... I definitely think we still should be doing alignment of deep learning. But it's a bet and it might not work out.
 
-**Alan** (0:29:33): I do think, you know, eventually we will have to do something agent foundations to really understand like, what are these things optimization and agency? Like, what are values. How do we actually load them into agents? What are we even doing? Right now, it seems we're sort of poking around in the dark with deep learning and RLHF. And it's like, okay, you know, on these data sets, it seems to work out fine. We're not really sure if it's going to work on other data sets. We're not really sure how to define agency in terms of our deep learning systems. 
+**Max** (0:30:12): Do you think... So if we need something like [agent foundations](https://intelligence.org/files/TechnicalAgenda.pdf), it seems that we would need some kind of restructuring of the research or we would need much more people pouring into these directions. And in general, I'm not sure if the eval work, let's say convincing DeepMind, Anthropic or something, which is I think the frame you've given, is going to help with that.  <a href="#outline">⬆</a>
 
-**Max** (0:30:05): Right. 
+**Alan** (0:31:01): So I don't think it's going to help get people into agent foundations. I think it's more about, okay, let's get people to care about AI safety in general. 
 
-**Alan** (0:30:06): So it's kind of I definitely think we still should be doing alignment of deep learning. 
+**Alan** (0:31:18): I think there is the agent foundations people, I think, or maybe the community in general could definitely do a much better job of saying why agent foundations is important, saying why, you know, this alignment stuff is actually really, really hard. Right now it's just a bunch of LessWrong and Alignment Forum posts, or you talk to people in the community. Right. And you know, the community from the outside might seem a little off-putting to approach. So maybe we don't want to do that. 
 
-**Max** (0:30:12): But it's a bet and it might not work out. Do you think? So if we need something agent foundations, it seems that we would need some kind of restructuring of the research or we would need much more people pouring into these directions. And in general, I'm not sure if the eval work, let's say convincing DeepMind on Froppik or something, which is I think the frame you've given is going to help with that. Maybe.  <a href="#outline">⬆</a>
+# AI Timelines And Doome
 
-## AI Safety Needs More Attention
+**Max** (0:31:56): So you're sounding, I think you've mentioned a few times this conversation, this whole 10 years has been thrown out. Alignment is hard, has been thrown out. I guess I might as well ask the same question or the same pair of questions. What are your timelines and [p(doom)](https://www.lesswrong.com/posts/sAEE7fdnv3KpcaQEi/when-people-ask-for-your-p-doom-do-you-give-them-your-inside)?
 
-**Alan** (0:31:01): Yeah. So I don't think it's going to help get people into agent foundations. I think it's more about, okay, let's get people to care about AI safety in general. 
-
-**Max** (0:31:17): That's it. 
-
-**Alan** (0:31:18): Yeah. I mean, I think there is the agent foundations people, I think, or maybe the community in general could definitely do a much better job of saying why agent foundations is important, saying why, you know, this alignment stuff is actually really, really hard. It's just right now, just a bunch of less wrong in alignment forum posts or you talk to people in the community. Right. And you know, the community from the outside might seem a little off-putting to approach. So maybe we don't want to do that. 
-
-**Max** (0:31:56): So you're sounding, I think you've mentioned a few times this conversation, this whole 10 years has been thrown out. Alignment is hard, has been thrown out. I guess I might as well ask the same question or the same pair of questions. What is the timelines and PD? 
-
-**Alan** (0:32:15): PD. So, yeah, I think I did this calculation yesterday or a few days ago with a bunch of friends, something 46%. 
-
-**Max** (0:32:24): It's quite high, I think, but could be higher. Timelines. <a href="#outline">⬆</a>
-
-# Long-term Challenges and Uncertainties in AI Safety
+**Alan** (0:32:15): P(doom). I think I did this calculation yesterday or a few days ago with a bunch of friends, something 46%. It's quite high, I think, but could be higher.
 
 ## AGI Timelines Are Uncertain And Anchored By Vibes
 
-**Alan** (0:32:32): Yeah. I mean, I feel a lot of my timeline stuff is part of it is anchoring off of things 
-
-**Max** (0:32:40): the bio anchors report. 
+**Alan** (0:32:32): Timelines. I mean, I feel a lot of my timeline stuff is part of it is anchoring off of things the bio anchors report. 
 
 **Alan** (0:32:42): Another part of it is just vibes. 
 
 **Max** (0:32:44): Okay. 
 
-**Alan** (0:32:45): You know, 2012 ImageNet. I was pretty cool when it wasn't that great, but now it's G3. I mean, G3 was a couple of years ago. G4, maybe next week. It's like, damn. We went from like, okay, image classification to a system that's actually able to do 
+**Alan** (0:32:45): You know, 2012 ImageNet. I was pretty cool when it wasn't that great, but now it's GPT-3. I mean, GPT-3 was a couple of years ago. GPT-4, maybe next week. It's like, damn. We went from like, okay, image classification to a system that's actually able to do tasks in the world.
 
-**Max** (0:33:06): tasks in the world. 
+## Video Pretrained Transformer
 
-**Alan** (0:33:07): I mean, you look at VPT. OpenAI certainly wasn't throwing all of its resources into VPT. 
+**Alan** (0:33:07): I mean, you look at [VPT](https://openai.com/research/vpt). OpenAI certainly wasn't throwing all of its resources into VPT. 
 
 **Max** (0:33:13): Do you want to explain what VPT is? 
 
-**Alan** (0:33:15): Yeah, the Video Pre-trained Transformer. So this is a recent paper from OpenAI where they pre-trained a transformer on a bunch of Minecraft YouTube videos, did some RLHF and see how it did in Minecraft. So, of course, it's not at human level. I think it was a 1 billion parameter model or something, something less that. So certainly, they could have thrown a lot more resources at this, but still it seemed to do sort of reasonable. It even was able to construct a diamond pickaxe, which is very, very hard to do in Minecraft. You also have things Gato, which is a transformer pre-trained on a bunch 
-
-**Max** (0:33:47): of RL things, RL environments.  <a href="#outline">⬆</a>
+**Alan** (0:33:15): Yeah, the [Video Pre-trained Transformer](https://openai.com/research/vpt). So this is a recent paper from OpenAI where they pre-trained a transformer on a bunch of Minecraft YouTube videos, did some RLHF and see how it did in Minecraft. So, of course, it's not at human level. I think it was a 1 billion parameter model or something, something less that. So certainly, they could have thrown a lot more resources at this, but still it seemed to do sort of reasonable. It even was able to construct a diamond pickaxe, which is very, very hard to do in Minecraft. You also have things Gato, which is a transformer pre-trained on a bunch RL environments. And it seems to be able to do a bunch of tasks, you know? <a href="#outline">⬆</a>
 
 ## Advanced AI Systems Could Cause Damage Even Without AGI
 
-**Alan** (0:33:50): And it seems to be able to do a bunch of tasks, you know? So we have really, really good capability in certain domains. We have like, you know, increasing generality. I think you just need to put these two together, scale things up a little bit more, maybe add some more hacks and tricks. And it seems we're sort of there to something that is an AGI-like system, or at the very least could cause a lot of damage in the world. 
+**Alan** (0:33:50):  So we have really, really good capability in certain domains. We have like, you know, increasing generality. I think you just need to put these two together, scale things up a little bit more, maybe add some more hacks and tricks. And it seems we're sort of there to something that is an AGI-like system, or at the very least could cause a lot of damage in the world. 
 
-**Max** (0:34:15): How do you see... How do you see the rest of the world looking then? if you have like, you think we're quite close, upon deployment of the system, do you see like... I think it's an issue I sometimes have with the question of what's your timelines? Because I'm not just like... I think it very much posits some idea that like, you know, if your timelines are 10 years, it means, you know, 10 years and one day from now you might as well just retire. It's over. that shit's gone. But in my head, like, you know, the game still keeps going. So yeah, so like, let's say you get one of these, you know, video pre-trained on YouTube, behavior cloned on a bunch of software engineers, you know, pre-trained, RLHDef, action transformed systems in like, let's say 10 years, and it's deployed. 
+**Max** (0:34:15): How do you see... How do you see the rest of the world looking then? if you have like, you think we're quite close, upon deployment of the system, do you see like... I think it's an issue I sometimes have with the question of what's your timelines? Because I'm not just like... I think it very much posits some idea that like, you know, if your timelines are 10 years, it means, you know, 10 years and one day from now you might as well just retire. It's over, that shit's gone. But in my head, like, you know, the game still keeps going.
 
-**Alan** (0:35:12): How do you see the world looking? 
+## What Matters Is Agency, Strategical Awareness And Planning
 
-**Max** (0:35:13): What do you actually... What is actually the worry here? Like, yeah. What's like... 
+**Max**: So yeah, so like, let's say you get one of these, you know, video pre-trained on YouTube, behavior cloned on a bunch of software engineers, you know, pre-trained, RLHDef, action transformed systems in like, let's say 10 years, and it's deployed. How do you see the world looking? What is actually the worry here? Do you think we're still in the game? What's the vibes?
 
-**Alan** (0:35:19): Do you think we're still in the game? 
+**Alan** (0:35:25):  Two things to distinguish are like, what is the point at which we get an AGI or an [APS](https://arxiv.org/pdf/2206.13353.pdf) AI? Advanced Planning, Strategically aware, with key capabilities hacking or manipulation AI. So yeah, I think my 10 years would be for that. Then the separate question is, okay, we have such an AI. Would it actually do something bad? I think this is the open question. I really don't know. 
 
-**Max** (0:35:20): when you say time is 10 years, you're like, we've got 10 years and that's it. Like, yeah.  <a href="#outline">⬆</a>
+**Alan** (0:35:51): This depends on, okay, like, what was the pre-trained data? What do we know about generalization and deep learning at this point? Like, how much do you actually have to prompt a model to do bad things or to actually do bad things? Like, how bad of a problem really is, you know, instrumental goals with these sorts of simulators that we've built? It's unclear. 
 
-## The World Post-AGI Deployment Is Uncertain
 
-**Alan** (0:35:25): What's the vibes? Two things to distinguish are like, what is the point at which we get an AGI or an APS AI? advanced planning, strategically aware, with key capabilities hacking or manipulation AI. So yeah, I think my 10 years would be for that. Then the separate question is, okay, we have such an AI. Would it actually do something bad? I think this is the open question. 
-
-**Max** (0:35:50): I really don't know. 
-
-**Alan** (0:35:51): This depends on, okay, like, what was the pre-trained data? What do we know about generalization and deep learning at this point? Like, how much do you actually have to prompt a model to do bad things or to actually do bad things? Like, how bad of a problem really is, you know, instrumental goals with these sorts of simulators that we've built? 
-
-**Max** (0:36:11): It's unclear. 
-
-**Alan** (0:36:12): I think we might still be in the game for a while. But, you know, it's this sort of notion of precarity, I think. Like, even if a model doesn't do something bad, it still might. 
-
-**Max** (0:36:23): Right. 
-
-**Alan** (0:36:24): So I think in this time, we really have to rush after we deploy this first model to either solve alignment through something agent foundations or produce convincing enough evidence to the world that we actually cannot solve this. We need to coordinate, not to build certain types of systems. 
+**Alan** (0:36:12): I think we might still be in the game for a while. But, you know, it's this sort of notion of precarity, I think. Like, even if a model doesn't do something bad, it still might.  So I think in this time, we really have to rush after we deploy this first model to either solve alignment through something like agent foundations or produce convincing enough evidence to the world that we actually cannot solve this. We need to coordinate, not to build certain types of systems. 
 
 **Max** (0:36:43): I mean, yeah, I guess I'm pretty...  <a href="#outline">⬆</a>
 
-## Solving Alignment Is A Public Good
+## Alignment Is A Public Good, Coordination Is Difficult
 
-**Alan** (0:36:45): I mean, alignment is a public good. 
+**Alan** (0:36:45): I mean, alignment is a public good. It benefits everybody, but like, you know, on the margin, a company DeepMind has an incentive to just move forward.  <a href="#outline">⬆</a>
 
-**Max** (0:36:47): Yeah. 
+**Max** (0:36:56): Yeah, I definitely think... I mean, I guess I might just be pessimistic on improving coordination, in some abstract general sense. I think people have tried to do this for a long time. It seems to just be a thing that... I think there's been, in my head, there's been a lot of smart people that have wanted to make the world more coordinated for a long time. And it just hasn't really happened. But I could definitely... I think I'm definitely more hopeful on coordination between the kind of benevolent, like, you know, DeepMind. 
 
-**Alan** (0:36:48): It benefits everybody, but like, you know, on the margin, a company DeepMind has an incentive to just move forward.  <a href="#outline">⬆</a>
-
-## Improving Coordination Is Difficult But Necessary
-
-**Max** (0:36:56): Yeah, I definitely think... I mean, I guess I might just be pessimistic on improving coordination, in some abstract general sense. I think people have tried to do this for a long time. It seems to just be a thing that... I think there's been, in my head, there's been a lot of smart people that have wanted to make the world more coordinated for a long time. And it just hasn't really happened. Yeah, for sure. But I could definitely... I think I'm definitely more hopeful on coordination between the kind of benevolent, like, you know, DeepMind. 
-
-**Alan** (0:37:36): I think... 
-
-**Max** (0:37:37): Something that really annoys me in the safety community is this kind of villainization of places DeepMind, OpenAI, and explicit, like, you know, talking about, let's say, Sam Altman or something. These people are caring, nice, genuine, intelligent, you know, future caring people. Dennis as well. I do have some pretty good... Some pretty good hope that coordination there is very much possible. 
+**Max** (0:37:37): Something that really annoys me in the safety community is this kind of villainization of places like DeepMind, OpenAI, and explicit, like, you know, talking about, let's say, Sam Altman or something. These people are caring, nice, genuine, intelligent, you know, future caring people. Demis as well. I do have some pretty good... Some pretty good hope that coordination there is very much possible. 
 
 **Alan** (0:38:12): Yeah, I think maybe this is kind of naive, but you know, we're all in this together. I think these are just people at the end of the day. Maybe we can't convince them, but we got to try until the last moment. 
 
