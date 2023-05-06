@@ -14,7 +14,7 @@ spotifyId:
 
 Max is currently a Research Assistant to [Owain Evans](https://owainevans.github.io/), mainly thinking about (and fixing) issues that might arise as we scale up our current ML systems, but also interested in issues arising from multi-agent failures and situational awareness.
 
-Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest in AI Safety, AI Governance and coordination. He has also  recently working with [David Krueger](https://theinsideview.ai/david) and helped me with some of the interviews that have been published recently ([ML Street talk](https://youtu.be/74VE_EBjg2Q) and [Christoph Schuhmann](https://youtu.be/-Mzfru1r_5s)).
+Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest in AI Safety, AI Governance and coordination. He has also  recently been working with [David Krueger](https://theinsideview.ai/david) and helped me with some of the interviews that have been published recently ([ML Street talk](https://youtu.be/74VE_EBjg2Q) and [Christoph Schuhmann](https://youtu.be/-Mzfru1r_5s)).
 
 > Disclaimer: this discussion is much more casual than the rest of the conversations in this podcast. This was completely impromptu: I just thought it would be interesting to have Max and Alan discuss model evaluations (also called "evals" for short), since they are both interested in the topic.
 
