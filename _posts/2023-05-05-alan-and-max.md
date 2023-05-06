@@ -10,11 +10,11 @@ spotifyId:
 {% include youtubePlayer.html id=page.youtubeId %}
 {% include spotifyPlayer.html id=page.spotifyId %}
 
-[Max Kaufmann](https://maxkaufmann.com/) and [Alan Chan](https://scholar.google.ca/citations?user=lmQmYPgAAAAJ&hl=en) discuss the evaluation of large language models, AI Governance and more generally the impact of the deployment of foundational models.
+[Max Kaufmann](https://maxkaufmann.com/) and [Alan Chan]([https://scholar.google.ca/citations?user=lmQmYPgAAAAJ&hl=en](https://www.achan.ca/)) discuss the evaluation of large language models, AI Governance and more generally the impact of the deployment of foundational models.
 
-Max is currently a Research Assistant to [Owain Evans](https://owainevans.github.io/), mainly interested in thinking about (and fixing) issues that might arise as we scale up our current ML systems.
+Max is currently a Research Assistant to [Owain Evans](https://owainevans.github.io/), mainly thinking about (and fixing) issues that might arise as we scale up our current ML systems, but also interested in issues arising from multi-agent failures and situational awareness.
 
-Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest in AI Safety, and has worked with different AI Safety organisations such as the center for long term risk. He has also been recently working with [David Krueger](https://theinsideview.ai/david) and helped me with some of the interviews that have been published recently ([ML Street talk](https://youtu.be/74VE_EBjg2Q) and [Christoph Schuhmann](https://youtu.be/-Mzfru1r_5s)).
+Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest in AI Safety, AI Governance and coordination. He has also  recently working with [David Krueger](https://theinsideview.ai/david) and helped me with some of the interviews that have been published recently ([ML Street talk](https://youtu.be/74VE_EBjg2Q) and [Christoph Schuhmann](https://youtu.be/-Mzfru1r_5s)).
 
 > Disclaimer: this discussion is much more casual than the rest of the conversations in this podcast. This was completely impromptu: I just thought it would be interesting to have Max and Alan discuss model evaluations (also called "evals" for short), since they are both interested in the topic.
 
