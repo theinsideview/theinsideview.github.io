@@ -10,7 +10,7 @@ spotifyId: 7eK7zPGZzo9ixPI9SYspK2
 {% include youtubePlayer.html id=page.youtubeId %}
 {% include spotifyPlayer.html id=page.spotifyId %}
 
-[Max Kaufmann](https://maxkaufmann.com/) and [Alan Chan]([https://scholar.google.ca/citations?user=lmQmYPgAAAAJ&hl=en](https://www.achan.ca/)) discuss the evaluation of large language models, AI Governance and more generally the impact of the deployment of foundational models.
+[Max Kaufmann](https://twitter.com/Max_A_Kaufmann) and [Alan Chan](https://twitter.com/_achan96_) discuss the evaluation of large language models, AI Governance and more generally the impact of the deployment of foundational models.
 
 Max is currently a Research Assistant to [Owain Evans](https://owainevans.github.io/), mainly thinking about (and fixing) issues that might arise as we scale up our current ML systems, but also interested in issues arising from multi-agent failures and situational awareness.
 
