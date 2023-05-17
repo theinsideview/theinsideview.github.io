@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Christoph Schuhmann on Open Source AI, Misuse and Existential risk"
+title: "Christoph Schuhmann on Open Source AI"
 category: podcast
 permalink: christoph
 youtubeId: -Mzfru1r_5s
