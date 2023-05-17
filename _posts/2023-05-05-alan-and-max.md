@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Alan Chan And Max Kaufmann on Model Evaluations, Coordination and AI Safety"
+title: "Alan And Max on Evals and Coordination"
 category: podcast
 permalink: alan_and_max
 youtubeId: BOLxeR_culU
