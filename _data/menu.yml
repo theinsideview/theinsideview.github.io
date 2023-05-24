@@ -1,6 +1,8 @@
 entries:
   - title: 'About'
     url: about
+  - title: 'Donate'
+    url: donate
   - title: 'Episodes'
     post_list:
       category: podcast
