@@ -4,7 +4,7 @@ email: michael.trazzi@gmail.com # email of site's author
 url: https://theinsideview.ai # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  About AI progress.
+  Transcripts of podcast episodes about existential risk from Artificial Intelligence (including AI Alignment, AI Governance, and everything else that could be decision-relevant for thinking about existential risk from AI).
 
 remote_theme: riggraz/no-style-please
 
