@@ -8,7 +8,6 @@ You can donate money to support the youtube videos, podcast episodes and transcr
 (There are also other benefits including early previews of videos, access to unreleased footage and more).
 
 Here is a list of people who have generously supported the podcast before I even started patreon:
-- Trevor Levin
 - Scott Alexander
 - Alexey Malafeev
 - Vincent Weisser
