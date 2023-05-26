@@ -12,4 +12,7 @@ Here is a list of people who have generously supported the podcast before I even
 - Alexey Malafeev
 - Vincent Weisser
 
-I'll be adding to this page the patrons that have contributed at least once to a tier above "The Inside Few", aka the tier where you're part of the few people that are on this page.
+And these are the people who have contributed at least once to a tier above "The Inside Few" on patreon, aka the tier where you're part of the few people that are on this page:
+- Ryan Coppolo
+- Gunnar Höglund
+- Vincent Weisser
