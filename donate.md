@@ -16,3 +16,4 @@ And these are the people who have contributed at least once to a tier above "The
 - Ryan Coppolo
 - Gunnar Höglund
 - Vincent Weisser
+= JJ Hepboin
