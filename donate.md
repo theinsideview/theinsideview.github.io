@@ -3,7 +3,7 @@ layout: page
 title: donate
 ---
 
-You can donate money to support the youtube videos, podcast episodes and transcripts via [Patreon](https://www.patreon.com/theinsideview).
+You can donate money to support the youtube videos, podcast episodes and transcripts via [Paypal](https://paypal.me/michaeltrazzi) or [Patreon](https://www.patreon.com/theinsideview).
 
 (There are also other benefits including early previews of videos, access to unreleased footage and more).
 
