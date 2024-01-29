@@ -18,7 +18,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 > Disclaimer: this discussion is much more casual than the rest of the conversations in this podcast. This was completely impromptu: I just thought it would be interesting to have Max and Alan discuss model evaluations (also called "evals" for short), since they are both interested in the topic.
 
-# Outline
+# Contents
 
 * [AI Safety and Evaluation](#ai-safety-and-evaluation)
     * [LLMs Translating To Systems In The Future Is Confusing](#llms-translating-to-systems-in-the-future-is-confusing)

@@ -3,8 +3,6 @@ entries:
     url: about
   - title: 'Donate'
     url: donate
-  - title: 'Outside'
-    url: outside
   - title: 'Explainers'
     url: explainers
   - title: 'Episodes'

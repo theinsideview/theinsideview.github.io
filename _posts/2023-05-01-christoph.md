@@ -19,7 +19,7 @@ Christoph is being interviewed by [Alan Chan](https://mila.quebec/en/person/alan
 <sup><sub><i>(Note: you can click on any sub-topic of your liking in the outline below and then come back to the outline by clicking on the green arrow</i></sub></sup> ⬆<sup><sub><i>)</i></sub></sup>
 
 
-# Outline
+# Contents
 
 * [LAION](#laion)
     * [How LAION was created](#how-laion-was-created)
