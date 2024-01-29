@@ -3,6 +3,10 @@ entries:
     url: about
   - title: 'Donate'
     url: donate
+  - title: 'Video Explainers'
+    url: explainers
+  - title: 'Street Interviews'
+    url: street
   - title: 'Episodes'
     post_list:
       category: podcast
