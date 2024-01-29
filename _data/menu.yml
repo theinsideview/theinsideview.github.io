@@ -3,10 +3,10 @@ entries:
     url: about
   - title: 'Donate'
     url: donate
-  - title: 'Explainers'
-    url: explainers
   - title: 'Outside'
     url: outside
+  - title: 'Explainers'
+    url: explainers
   - title: 'Episodes'
     post_list:
       category: podcast
