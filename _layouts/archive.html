@@ -4,6 +4,28 @@ layout: default
 
 {%-include back_link.html-%}
 
-<h1>{{ page.title }}</h1>
+{%-if include.category-%}
+  {%-assign posts = site.categories[include.category]-%}
+{%-else-%}
+  {%-assign posts = site.posts-%}
+{%-endif-%}
 
-{%-include post_list.html category=page.which_category-%}
+{%-if include.limit and posts.size > include.limit-%}
+  {%-assign limit_exceeded = true-%}
+{%-else-%}
+  {%-assign limit_exceeded = false-%}
+{%-endif-%}
+
+{%- if posts.size > 0 -%}
+  <ul>
+    {%- for post in posts limit: 100 -%}
+        <li>
+          <span>{{- post.date | date: site.theme_config.date_format -}}</span>
+          <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
+        </li>
+    {%- endfor -%}
+    {%- if include.show_more and limit_exceeded -%}
+      <li><a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></li>
+    {%- endif -%}
+  </ul>
+{%- endif -%}

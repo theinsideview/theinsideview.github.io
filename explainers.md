@@ -6,7 +6,7 @@ permalink: explainers
 
 Explaining AI Alignment research.
 
-# Contents
+### Contents
 
 * [GPT-2 Teaches GPT-4: Weak-to-Strong Generalization](#gpt-2-teaches-gpt-4-weak-to-strong-generalization)
 * [How to catch an AI Liar](#how-to-catch-an-ai-liar)
