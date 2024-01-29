@@ -87,7 +87,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max**: And you imagine that like, you know, something [ACT](https://www.adept.ai/blog/act-1), I mean, ACT can't generate language, at least not directly. Do you see what it says its actions are when asked in language translate well and generalize what its actions actually will be?
 
-**Max**: let's say you have WebGBT and you're like, oh, would you break up a server farm? Do you think whether it says yes or no in an eval this translates to if I scale up the system, if I deploy it, it actually will? I feel there might be some disconnect between what this chatbot says and then what happens when you use this thing-world-model, fine tune it on some actions and cause it to run, let's say, let's say it interact a lot with of an API. It feels the emergent behavior there happens kind of independently of what it said in the chatbot setting.  <a href="#outline">⬆</a>
+**Max**: let's say you have WebGBT and you're like, oh, would you break up a server farm? Do you think whether it says yes or no in an eval this translates to if I scale up the system, if I deploy it, it actually will? I feel there might be some disconnect between what this chatbot says and then what happens when you use this thing-world-model, fine tune it on some actions and cause it to run, let's say, let's say it interact a lot with of an API. It feels the emergent behavior there happens kind of independently of what it said in the chatbot setting.  <a href="#contents">⬆</a>
 
 ## Evaluations Should Measure Actions Instead of Asking Yes or No Questions
 
@@ -97,7 +97,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: So yeah, I suppose that's a problem with evaluations where you just ask the language model yes or no questions about what it would do and not actually see what it would do.
 
-**Max**: So let's say hypothetically you had to set up some kind of eval company. Hypothetically, let's say there's some kind of eval company that's going on. It's like, I think I'd be interested to see right now, what would your model of like, what would that eval look like? Is it more like, you said, give it an API, see what it's doing?  <a href="#outline">⬆</a>
+**Max**: So let's say hypothetically you had to set up some kind of eval company. Hypothetically, let's say there's some kind of eval company that's going on. It's like, I think I'd be interested to see right now, what would your model of like, what would that eval look like? Is it more like, you said, give it an API, see what it's doing?  <a href="#contents">⬆</a>
 
 ## Identify Key Contexts for Dangerous Behavior to Write Concrete Evals
 
@@ -105,7 +105,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: So the difficulty here I think is I think we need to identify these contexts in order to actually be able to write concrete evals and to provide evidence that's convincing to the public, that AIs could do dangerous things. Of course, whenever, yeah, I don't think we're going to be able to cover all the possible ground. 
 
-**Alan**: There's of course some uncertainty in extrapolating from evaluations that we develop. You know, okay, the AI does something dangerous in this scenario, doesn't do something dangerous in scenario B. What does it do in scenario C?Sort of unclear. <a href="#outline">⬆</a>
+**Alan**: There's of course some uncertainty in extrapolating from evaluations that we develop. You know, okay, the AI does something dangerous in this scenario, doesn't do something dangerous in scenario B. What does it do in scenario C?Sort of unclear. <a href="#contents">⬆</a>
 
 ## Evaluations Could Be Too Late If AI Becomes Deceptively Aligned
 
@@ -117,7 +117,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: And we make sure not to train on this eval somehow. You know, somehow we need to make sure evals don't ever make it into the training sets of language models. 
 
-**Alan**: Otherwise, you know, well, they train on this, they already know about this, it's going to be kind of useless. <a href="#outline">⬆</a>
+**Alan**: Otherwise, you know, well, they train on this, they already know about this, it's going to be kind of useless. <a href="#contents">⬆</a>
 
 ## Differentiating Between Benchmarks and Evals in AI Development
 
@@ -127,7 +127,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: But this thing that we're developing, this eval, at the end of the day is just a proxy measure for what we care about, which is, you know, it might be specifically corrigibility, it might be honesty. Maybe we're trying to make sure this AI doesn't like, you know, isn't able to manipulate a lot of people. So it's an imperfect measure. I think when you optimize for an imperfect measure.
 
-**Alan**: I mean, I think this is common, already known in the AI safety community, you don't tend to get models that actually do what you care about at the end of the day. I think the framing of evals instead of benchmarks to me, makes it clear in my head at least that we don't want to be optimizing for these things. We're just using these as sort of checks on our model. But there's another difficulty with having like, I guess, public evals and that there's some sort of implicit optimization already going on. when researcher A tries a technique on some benchmark or eval and finds it doesn't work and publishes a paper, researcher B says, oh, you know, you tried this technique, it doesn't work, I'm gonna try another technique. <a href="#outline">⬆</a>
+**Alan**: I mean, I think this is common, already known in the AI safety community, you don't tend to get models that actually do what you care about at the end of the day. I think the framing of evals instead of benchmarks to me, makes it clear in my head at least that we don't want to be optimizing for these things. We're just using these as sort of checks on our model. But there's another difficulty with having like, I guess, public evals and that there's some sort of implicit optimization already going on. when researcher A tries a technique on some benchmark or eval and finds it doesn't work and publishes a paper, researcher B says, oh, you know, you tried this technique, it doesn't work, I'm gonna try another technique. <a href="#contents">⬆</a>
 
 ## Implicit Optimization Process Affects Evals and Benchmarks
 
@@ -147,7 +147,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max**: So failing evals is sufficient to show danger, but not necessary. 
 
-**Alan**: Maybe not in a truth, strictly truth sense, but in a practically speaking what we should do sense. In the sense that I think I am fairly risk averse about releasing AIs into the world.  <a href="#outline">⬆</a>
+**Alan**: Maybe not in a truth, strictly truth sense, but in a practically speaking what we should do sense. In the sense that I think I am fairly risk averse about releasing AIs into the world.  <a href="#contents">⬆</a>
 
 ## Balancing Technical Evals With Social Governance
 
@@ -157,9 +157,9 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 ## Evaluations Must Be Convincing To Influence AI Development
 
-**Alan**: I think that's the next level, that's the level at which we try to bring in other people from the public, civil society, governments, just in general, public consensus building around the idea that AIs can disempower us. So yeah, I think an eval is kind of useless if nobody pays attention to it, or if people don't find it convincing, in particular the people who have the power to actually do things. So part of the work, I think, is thinking about what kinds of evals would actually be convincing to people.  <a href="#outline">⬆</a>
+**Alan**: I think that's the next level, that's the level at which we try to bring in other people from the public, civil society, governments, just in general, public consensus building around the idea that AIs can disempower us. So yeah, I think an eval is kind of useless if nobody pays attention to it, or if people don't find it convincing, in particular the people who have the power to actually do things. So part of the work, I think, is thinking about what kinds of evals would actually be convincing to people.  <a href="#contents">⬆</a>
 
-**Max**: What do you think, what kind of evals do you think would be convincing to people, at least currently, as you start? <a href="#outline">⬆</a>
+**Max**: What do you think, what kind of evals do you think would be convincing to people, at least currently, as you start? <a href="#contents">⬆</a>
 
 **Alan**: Yeah, I mean, I kind of have no idea. I mean, I have an idea of evals that would be convincing to me, if I actually saw an AI trying to copy its weights to another server, trying to get a lot of money. Yeah, I buy that. If I was head of DeepMind, I'd be like, okay, maybe even without looking at these evals, let's slow it down a little bit.
 
@@ -179,13 +179,13 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max**: You know, as we found out in recent events, the deontologists...
 
-**Alan**: Yeah I think justice is really important. Like, I don't want to live in a world where, you know, we have like, just our current systems of discrimination, just enforced or solidified because of really, really good artificial intelligence. <a href="#outline">⬆</a>
+**Alan**: Yeah I think justice is really important. Like, I don't want to live in a world where, you know, we have like, just our current systems of discrimination, just enforced or solidified because of really, really good artificial intelligence. <a href="#contents">⬆</a>
 
 ## Both Existential Safety And Fairness Are Important
 
 **Alan**: This seems a concern to me that is like, yeah, I guess I find difficulty maybe giving a absolutely precise rating scale for how important things are. I guess I try to, in general, I try to find commonalities between causes I really care about to sort of do things that seem robustly good on both accounts. So yeah, and I think like, you know, my work in evals so far is an attempt to doing this.
 
-**Max**: My original question was, why don't FAccT people care about X risk? Or let's say even more broadly, what do you think stops the average Mila PhD for being like, shit, man, let me write some Alignment Forum Post right now. Okay, let's not say like, let's say like, care about X risk. <a href="#outline">⬆</a>
+**Max**: My original question was, why don't FAccT people care about X risk? Or let's say even more broadly, what do you think stops the average Mila PhD for being like, shit, man, let me write some Alignment Forum Post right now. Okay, let's not say like, let's say like, care about X risk. <a href="#contents">⬆</a>
 
 # Public Perception of AI Safety and Existential Risk
 
@@ -203,17 +203,17 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 ## Timelines And RL Understanding Might Impact The Perception Existential Risk From AI
 
-**Max**: How much of it do you think is, you know, in the spirit of [The Inside View podcast](https://theinsideview.ai/), how much do you think it is about timelines and belief about speed of progress? Part of it. <a href="#outline">⬆</a>
+**Max**: How much of it do you think is, you know, in the spirit of [The Inside View podcast](https://theinsideview.ai/), how much do you think it is about timelines and belief about speed of progress? Part of it. <a href="#contents">⬆</a>
 
 **Alan**: So a lot of people, I think, in the AI Safety community don't think that AIs could be like, classical RL agents pursuing goals in ways that misgeneralize to new environments. Yeah, I'm not even sure that like, a lot of people really know about reinforcement learning. Yeah, like, I've had a ton of conversations where, you know, I like, people express to me, oh, like, AIs are just tools, like, we're just designing them, like, you know, they're really just reproducing the data. And I'm like, well, like, have you heard of reinforcement learning? Like, we're literally designing agents to maximize, a reward function. This is all the problems of classical utilitarianism. They're like, oh, shit. I've never heard of this.
 
-**Alan**: Part of it might just be education that like, you know, literally, there are companies and research labs in academia whose goal is to build artificial general intelligence with something reinforcement learning. And like, they're just doing this. The vast majority of people aren't thinking about safety concerns. So I don't know, maybe telling people this might help.  <a href="#outline">⬆</a>
+**Alan**: Part of it might just be education that like, you know, literally, there are companies and research labs in academia whose goal is to build artificial general intelligence with something reinforcement learning. And like, they're just doing this. The vast majority of people aren't thinking about safety concerns. So I don't know, maybe telling people this might help.  <a href="#contents">⬆</a>
 
 ## Agentic Models And Longtermism Hinder AI Safety Awareness
 
-**Max**: It sounds there's some underlying thing that, you know, like, let's say I or people in the x-risk community think of AI and they think of some agentic, like, you know, maximizing reward model. And you may be saying something like, "a lot of our practitioners, it's just not the conception or when they think of AI, that is just not what they see".  <a href="#outline">⬆</a>
+**Max**: It sounds there's some underlying thing that, you know, like, let's say I or people in the x-risk community think of AI and they think of some agentic, like, you know, maximizing reward model. And you may be saying something like, "a lot of our practitioners, it's just not the conception or when they think of AI, that is just not what they see".  <a href="#contents">⬆</a>
 
-**Alan**: Yeah, yeah, yeah. So I think, like, maybe there are two things here. The first thing is people believe that, okay, like, we don't actually have these kinds of AIs or maybe trying to build these kinds of AIs is unimaginable. But the second thing might just be, okay, they might believe that it's possible to build these AIs, but this is way, way too far off. And this is where I think the objection to longtermism comes in. And where I think like, I don't know, it's been sort of complicated with AI safety and longtermism. Maybe 20 years ago, like, longtermism was a stronger argument for AI safety. But I think now because of timelines, it seems that we don't really need longtermism to make the argument that we should care about AI safety. And like, maybe we just shouldn't talk about longtermism. If it turns people in certain communities off. <a href="#outline">⬆</a>
+**Alan**: Yeah, yeah, yeah. So I think, like, maybe there are two things here. The first thing is people believe that, okay, like, we don't actually have these kinds of AIs or maybe trying to build these kinds of AIs is unimaginable. But the second thing might just be, okay, they might believe that it's possible to build these AIs, but this is way, way too far off. And this is where I think the objection to longtermism comes in. And where I think like, I don't know, it's been sort of complicated with AI safety and longtermism. Maybe 20 years ago, like, longtermism was a stronger argument for AI safety. But I think now because of timelines, it seems that we don't really need longtermism to make the argument that we should care about AI safety. And like, maybe we just shouldn't talk about longtermism. If it turns people in certain communities off. <a href="#contents">⬆</a>
 
 ## The Focus On Immediate AI Harms Might Be A Rejection Of Speculative Claims
 
@@ -257,7 +257,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: I have a lot of uncertainty about this. So I think on one hand, it could be good in the sense that, okay, you know, if everybody has like their stable six and GPT 10, they're like, okay, you know, I look at the world today, what is the labor that I can do?  Nothing.
 
-**Alan**: I think that's a pretty wild world in a world in which people think, 'damn, these AI things, maybe we should, maybe we should regulate them'. So I think this is good to like, I guess, make AI capabilities sort of be known in the public. <a href="#outline">⬆</a>
+**Alan**: I think that's a pretty wild world in a world in which people think, 'damn, these AI things, maybe we should, maybe we should regulate them'. So I think this is good to like, I guess, make AI capabilities sort of be known in the public. <a href="#contents">⬆</a>
 
 ## AI Capabilities Becomign More Evident to the Public Might Not Be Enough
 
@@ -267,7 +267,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: Or you blame the entire system that has gotten us to this point. Like, we've created a world in which okay, there is like, no UBI, there's no other social safety net, which have these corporations making money. And so now like, you're stuck in this state of precarity. Like, I don't think you care about existential safety necessarily. Is this worse than the world we're in now? In terms of getting people to care about existential safety? I'm really not sure. 
 
-**Max**: Okay, so you kind of see this as an orthogonal, a slightly orthogonal kind of problem to the agency existnail risk thing, which needs to be solved as well?  <a href="#outline">⬆</a>
+**Max**: Okay, so you kind of see this as an orthogonal, a slightly orthogonal kind of problem to the agency existnail risk thing, which needs to be solved as well?  <a href="#contents">⬆</a>
 
 ## Addressing Generalization and Reward Specification in AI
 
@@ -275,11 +275,11 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 ## Evals as an Additional Layer of Security in AI Safety
 
-**Max**: Would it be fair to say that you see evals in such a world as causing people to focus more on the x-risky agency outcomes?  <a href="#outline">⬆</a>
+**Max**: Would it be fair to say that you see evals in such a world as causing people to focus more on the x-risky agency outcomes?  <a href="#contents">⬆</a>
 
 **Alan**: Possibly, yep. So I think I see evals as like, in general, work, just as just adding layers of security. So okay, maybe this is enough to get people on the AI safety train. But we don't know. It seems we should be trying as hard as possible to get people on the like, 'AI is ridiculous train'. 
 
-**Max**: Okay, so it's less of a, you know, defense in depth or something. It's another thing that someone should be doing. And you've decided that as part of the wider strategic picture, evals are some important part.  <a href="#outline">⬆</a>
+**Max**: Okay, so it's less of a, you know, defense in depth or something. It's another thing that someone should be doing. And you've decided that as part of the wider strategic picture, evals are some important part.  <a href="#contents">⬆</a>
 
 ## A Portfolio Approach to AI Alignment and Safety
 
@@ -307,7 +307,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: What work did the evals trigger? 
 
-**Max**: Let's say, maybe it's a better question.  <a href="#outline">⬆</a>
+**Max**: Let's say, maybe it's a better question.  <a href="#contents">⬆</a>
 
 ## Agent Foundations Might Be Needed And We Don't Have Much Time
 
@@ -317,7 +317,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: So it's kind of... I definitely think we still should be doing alignment of deep learning. But it's a bet and it might not work out.
 
-**Max**: Do you think... So if we need something like [agent foundations](https://intelligence.org/files/TechnicalAgenda.pdf), it seems that we would need some kind of restructuring of the research or we would need much more people pouring into these directions. And in general, I'm not sure if the eval work, let's say convincing DeepMind, Anthropic or something, which is I think the frame you've given, is going to help with that.  <a href="#outline">⬆</a>
+**Max**: Do you think... So if we need something like [agent foundations](https://intelligence.org/files/TechnicalAgenda.pdf), it seems that we would need some kind of restructuring of the research or we would need much more people pouring into these directions. And in general, I'm not sure if the eval work, let's say convincing DeepMind, Anthropic or something, which is I think the frame you've given, is going to help with that.  <a href="#contents">⬆</a>
 
 **Alan**: So I don't think it's going to help get people into agent foundations. I think it's more about, okay, let's get people to care about AI safety in general. 
 
@@ -345,7 +345,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max**: Do you want to explain what VPT is? 
 
-**Alan**: Yeah, the [Video Pre-trained Transformer](https://openai.com/research/vpt). So this is a recent paper from OpenAI where they pre-trained a transformer on a bunch of Minecraft YouTube videos, did some RLHF and see how it did in Minecraft. So, of course, it's not at human level. I think it was a 1 billion parameter model or something, something less that. So certainly, they could have thrown a lot more resources at this, but still it seemed to do sort of reasonable. It even was able to construct a diamond pickaxe, which is very, very hard to do in Minecraft. You also have things Gato, which is a transformer pre-trained on a bunch RL environments. And it seems to be able to do a bunch of tasks, you know? <a href="#outline">⬆</a>
+**Alan**: Yeah, the [Video Pre-trained Transformer](https://openai.com/research/vpt). So this is a recent paper from OpenAI where they pre-trained a transformer on a bunch of Minecraft YouTube videos, did some RLHF and see how it did in Minecraft. So, of course, it's not at human level. I think it was a 1 billion parameter model or something, something less that. So certainly, they could have thrown a lot more resources at this, but still it seemed to do sort of reasonable. It even was able to construct a diamond pickaxe, which is very, very hard to do in Minecraft. You also have things Gato, which is a transformer pre-trained on a bunch RL environments. And it seems to be able to do a bunch of tasks, you know? <a href="#contents">⬆</a>
 
 ## Advanced AI Systems Could Cause Damage Even Without AGI
 
@@ -364,11 +364,11 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: I think we might still be in the game for a while. But, you know, it's this sort of notion of precarity, I think. Like, even if a model doesn't do something bad, it still might.  So I think in this time, we really have to rush after we deploy this first model to either solve alignment through something like agent foundations or produce convincing enough evidence to the world that we actually cannot solve this. We need to coordinate, not to build certain types of systems. 
 
-**Max**: I mean, yeah, I guess I'm pretty...  <a href="#outline">⬆</a>
+**Max**: I mean, yeah, I guess I'm pretty...  <a href="#contents">⬆</a>
 
 ## Alignment Is A Public Good, Coordination Is Difficult
 
-**Alan**: I mean, alignment is a public good. It benefits everybody, but like, you know, on the margin, a company DeepMind has an incentive to just move forward.  <a href="#outline">⬆</a>
+**Alan**: I mean, alignment is a public good. It benefits everybody, but like, you know, on the margin, a company DeepMind has an incentive to just move forward.  <a href="#contents">⬆</a>
 
 **Max**: Yeah, I definitely think... I mean, I guess I might just be pessimistic on improving coordination, in some abstract general sense. I think people have tried to do this for a long time. It seems to just be a thing that... I think there's been, in my head, there's been a lot of smart people that have wanted to make the world more coordinated for a long time. And it just hasn't really happened. But I could definitely... I think I'm definitely more hopeful on coordination between the kind of benevolent, like, you know, DeepMind. 
 
@@ -380,7 +380,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: So I think it totally makes sense to be pessimistic about solving all of this, about coordination, about alignment, about any other of the other stuff that could like, you know, go wrong, like S-risk. I think it totally makes sense. 
 
-**Alan**: And like, I definitely don't want to judge anybody that has just like, you know, decided not to work on any of this because it's too depressing. Like, that's totally fair. This is super, super hard. But I think... I guess personally, my perspective is like, okay, you know, maybe this just comes from me having a lot of uncertainty about a lot of things in my life. So, you know, on the off-chance that we could actually make a difference, it seems worth it to try. Even if sort of maybe the objective belief is that, okay, maybe it's not worth trying if we actually did the EVs.  <a href="#outline">⬆</a>
+**Alan**: And like, I definitely don't want to judge anybody that has just like, you know, decided not to work on any of this because it's too depressing. Like, that's totally fair. This is super, super hard. But I think... I guess personally, my perspective is like, okay, you know, maybe this just comes from me having a lot of uncertainty about a lot of things in my life. So, you know, on the off-chance that we could actually make a difference, it seems worth it to try. Even if sort of maybe the objective belief is that, okay, maybe it's not worth trying if we actually did the EVs.  <a href="#contents">⬆</a>
 
 ## Dignity As AN Useful Heuristic In The Face Of Doom
 
@@ -414,7 +414,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: Number two, I mean, even if they like, try not to do anything with it, like, I think for sure other parties are going to want that kind of power too: the US government, China, maybe even other companies. What happens when there's conflict? What does OpenAI do? Do they just obliterate other entities? That's wild. If they did, I think for sure, like, general populace would be like, what the fuck is going on with OpenAI? Like, maybe we should go to war with this. This doesn't seem like a good future, either.
 
-**Alan**: So I think there are just a lot of factors that like, maybe we actually do need to figure out right now, like, what is the game plan when we have AGI to ensure that like, we get that kind of future where we have the time to think about, okay, like, what are the things we actually want? And we have the like, the luxury, you know, to work on, okay, like, let's eliminate resource scarcity. Let's try to eliminate discrimination somehow, maybe not with the AGI. But like, because we don't have other problems, we can more focus our time and energy on these social problems.  <a href="#outline">⬆</a>
+**Alan**: So I think there are just a lot of factors that like, maybe we actually do need to figure out right now, like, what is the game plan when we have AGI to ensure that like, we get that kind of future where we have the time to think about, okay, like, what are the things we actually want? And we have the like, the luxury, you know, to work on, okay, like, let's eliminate resource scarcity. Let's try to eliminate discrimination somehow, maybe not with the AGI. But like, because we don't have other problems, we can more focus our time and energy on these social problems.  <a href="#contents">⬆</a>
 
 ## Uncertainty About Societal Dynamics Affecting Long-Term Future With AGI
 
@@ -448,7 +448,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: This includes things the things that people study in fairness. AI that like, aren't really able to, like, learn what our fairness judgments are. AI that just exacerbate discrimination that is already present in society and that is present in datasets that we use to train these AIs. So I think that's that broad definition, to me is the ideal definition, the one we can all get behind, you know, so that we can do things that we practically agree on, more regulation, slowing down AI development, more verification of AI systems before we deploy them. 
 
-**Max**: Okay, given that definition, and maybe focusing on the narrow AI safety, X risk definition, what's your biggest frustration with the community or the set of people that currently works on, insofar that they are able to be homogenized? Maybe you should go into more specific subsets of this community. But yeah, the people that worry about the X risk AI safety.  <a href="#outline">⬆</a>
+**Max**: Okay, given that definition, and maybe focusing on the narrow AI safety, X risk definition, what's your biggest frustration with the community or the set of people that currently works on, insofar that they are able to be homogenized? Maybe you should go into more specific subsets of this community. But yeah, the people that worry about the X risk AI safety.  <a href="#contents">⬆</a>
 
 ## Frustration: Lack of Bridge Building Between AI Safety and Fairness Communities
 
@@ -458,9 +458,9 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 ## More People Could Join The AI Safety Community in the Future
 
-**Max**: Do you see this community changing a lot? Like, let's say, by this community, let's say the set of people that if you ask them, what do you do? They would say something along the lines of, I work to ensure that X risk from AI doesn't happen. Do you think you see that set of people changing a lot in the next few years? <a href="#outline">⬆</a>
+**Max**: Do you see this community changing a lot? Like, let's say, by this community, let's say the set of people that if you ask them, what do you do? They would say something along the lines of, I work to ensure that X risk from AI doesn't happen. Do you think you see that set of people changing a lot in the next few years? <a href="#contents">⬆</a>
 
-**Alan**: I think more people are gonna get on the train, same train as we are on right now. Yeah. You know, AI is being deployed much more. These ridiculous generative models. It's wild when you're put out of a job by an AI in 2025. Maybe we predicted 2060. Right? So this is a good thing. I guess I hope that like, you know, by getting more people on this train, we also make sure that we repair the bridges that don't exist or have been burned between the different safety communities. <a href="#outline">⬆</a>
+**Alan**: I think more people are gonna get on the train, same train as we are on right now. Yeah. You know, AI is being deployed much more. These ridiculous generative models. It's wild when you're put out of a job by an AI in 2025. Maybe we predicted 2060. Right? So this is a good thing. I guess I hope that like, you know, by getting more people on this train, we also make sure that we repair the bridges that don't exist or have been burned between the different safety communities. <a href="#contents">⬆</a>
 
 ## Building Bridges by Attending Conferences and Understanding Different Perspectives
 
@@ -468,7 +468,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 ## Technical Problems in Fairness and AI Safety Have Similarities
 
-**Max**: How similar do you think the technical problems are between the fairness community and the AI safety community?  <a href="#outline">⬆</a>
+**Max**: How similar do you think the technical problems are between the fairness community and the AI safety community?  <a href="#contents">⬆</a>
 
 **Alan**:  Somewhat similar. I think one particular technical problem in fairness is what... So in a particular context, let's say, I don't know, hiring in this particular country with this particular historical context. 
 
@@ -478,7 +478,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: I think general stuff too. Anytime we think about generalization problems in AI safety, these are also relevant in fairness because fairness problems aren't just one shot, 'oh, the train test distribution are going to be the same'. Things are changing in the real world as well. So totally, I think that thing is also relevant.
 
-**Alan**: Another thing is just all the stuff about instrumental goals and reinforcement learning systems and agents. If we're going to be deploying algorithms in society that make consequential decisions about people's welfare, well, these are going to be decisions that are going to be made over time. In making decisions over time, we don't want the AI systems we're deploying to do really weird things, have really weird instrumental goals. So I think the connection to me seems pretty clear, but it hasn't been communicated well, which is pretty unfortunate. <a href="#outline">⬆</a>
+**Alan**: Another thing is just all the stuff about instrumental goals and reinforcement learning systems and agents. If we're going to be deploying algorithms in society that make consequential decisions about people's welfare, well, these are going to be decisions that are going to be made over time. In making decisions over time, we don't want the AI systems we're deploying to do really weird things, have really weird instrumental goals. So I think the connection to me seems pretty clear, but it hasn't been communicated well, which is pretty unfortunate. <a href="#contents">⬆</a>
 
 ## AI Systems with Weird Instrumental Goals Pose Risks to Society
 
@@ -528,7 +528,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: There's factory farming. I think there's also just wars. So not just the death tolls and wars themselves, but what war brings with it. So just disease, malnutrition, general instability. 
 
-**Max**: That seems to have caused a huge amount of suffering in human history. <a href="#outline">⬆</a>
+**Max**: That seems to have caused a huge amount of suffering in human history. <a href="#contents">⬆</a>
 
 ## Advanced AI Systems Controlling Resources Could Magnify Suffering
 
@@ -544,7 +544,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Max**: I cannot speak. You cannot speak. Too many infohazards.
 
-**Alan**: I mean, I was just an intern. I don't work there as a full-time employee. <a href="#outline">⬆</a>
+**Alan**: I mean, I was just an intern. I don't work there as a full-time employee. <a href="#contents">⬆</a>
 
 # Cooperation and Motivations in AI Safety 
 
@@ -578,7 +578,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: September 1st, 1996. Probably at night, probably 12am or something. Okay, I was born in Edmonton, Alberta, Canada to two parents who are immigrants from Vietnam. How much detail?
 
-**Max**: Just whatever is necessary to understand. To live as if we're in your shoes.  <a href="#outline">⬆</a>
+**Max**: Just whatever is necessary to understand. To live as if we're in your shoes.  <a href="#contents">⬆</a>
 
 ## Alan's AI Safety Research Is Driven By Desire To Reduce Suffering And Improve Lives
 
@@ -592,7 +592,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: I think that's one part of it. Another part is just being exposed to the things that I think make life really worth living. Just hanging out with your friends, doing fun things, trying new foods, traveling. So, I think both the upside and the downside that I was able to experience in my life, I think made me believe that, okay, it seems really important to remove the downsides for as many people as we can. To make sure that people can actually experience the upside in life. 
 
-**Alan**: I think that's the general motivation for working on social causes or causes to reduce risk in some very general sense. <a href="#outline">⬆</a>
+**Alan**: I think that's the general motivation for working on social causes or causes to reduce risk in some very general sense. <a href="#contents">⬆</a>
 
 ## Diverse Interests And Concern For Global Problems Led To AI Safety Research
 
@@ -610,7 +610,7 @@ Alan is PhD student at Mila advised by Nicolas Le Roux, with a strong interest i
 
 **Alan**: But in the course of my master's, I guess I thought, okay, this is a reinforcement learning lab. So I was at the University of Alberta. This is a reinforcement learning lab. These people actually want to build AGI. I don't know. This seems kind of concerning to me. I had this intuition. Okay, what the fuck, though? Artificial general intelligence? Could it do some bad things, maybe?
 
-**Alan**: I finished my master's in 2020. So I guess in the middle of COVID, I was sort of thinking, trying to grapple with these questions. Also, just noticing or just living through COVID and also the George Floyd protests. I was like, okay, real shit actually happens in the world. I'm living through history. Maybe something wild could actually happen. And something I'm personally involved in. Every day, AI. So I started to read a lot more about AI safety.  Superintelligence and stuff.  <a href="#outline">⬆</a>
+**Alan**: I finished my master's in 2020. So I guess in the middle of COVID, I was sort of thinking, trying to grapple with these questions. Also, just noticing or just living through COVID and also the George Floyd protests. I was like, okay, real shit actually happens in the world. I'm living through history. Maybe something wild could actually happen. And something I'm personally involved in. Every day, AI. So I started to read a lot more about AI safety.  Superintelligence and stuff.  <a href="#contents">⬆</a>
 
 ## The Realization Of The Potential Dangers Of AGI Motivated AI Safety Work
 
