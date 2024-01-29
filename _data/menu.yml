@@ -3,14 +3,14 @@ entries:
     url: about
   - title: 'Donate'
     url: donate
-  - title: 'Video Explainers'
+  - title: 'Explainers'
     url: explainers
-  - title: 'Street Interviews'
-    url: street
+  - title: 'Outside'
+    url: outside
   - title: 'Episodes'
     post_list:
       category: podcast
-      limit: 100
-      show_more: false
-      show_more_text: See archive...
+      limit: 10
+      show_more: true
+      show_more_text: See more...
       show_more_url: archive.html
