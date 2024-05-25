@@ -16,6 +16,7 @@ Here is a list of people who have supported the podcast before I started patreon
 - Vincent Weisser
 
 And these are the people who have contributed at least once to a tier above "The Inside Few" on patreon, aka the tier where you're part of the few people that are on this page:
+- Daniel Brockman
 - Ryan Coppolo
 - Gunnar Höglund
 - Vincent Weisser
