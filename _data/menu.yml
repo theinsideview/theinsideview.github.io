@@ -5,6 +5,8 @@ entries:
     url: donate
   - title: 'Explainers'
     url: explainers
+  - title: 'Walkthroughs'
+    url: walkthroughs
   - title: 'Episodes'
     post_list:
       category: podcast
