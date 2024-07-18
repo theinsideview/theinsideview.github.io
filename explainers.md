@@ -14,38 +14,12 @@ Animated video explainers of AI Alignment research.
 
 ## Paul Christiano's Views on AI Doom (ft. Robert Miles)
 
-<div class="embed-container">
-  <iframe
-      src="https://www.youtube.com/embed/K8SUBNPAJnE"
-      width="420"
-      height="315"
-      frameborder="0"
-      allowfullscreen="">
-  </iframe>
-</div>
-
+{% include youtubePlayer.html id=K8SUBNPAJnE %}
 
 ## Clarifying and prediciting AGI
 
-<div class="embed-container">
-  <iframe
-      src="https://www.youtube.com/embed/JXYcLQItZsk"
-      width="420"
-      height="315"
-      frameborder="0"
-      allowfullscreen="">
-  </iframe>
-</div>
-
+{% include youtubePlayer.html id=JXYcLQItZsk %}
 
 ## GPT-2 Teaches GPT-4: Weak-to-Strong Generalization
 
-<div class="embed-container">
-  <iframe
-      src="https://www.youtube.com/embed/OR-vcVNXdKk"
-      width="420"
-      height="315"
-      frameborder="0"
-      allowfullscreen="">
-  </iframe>
-</div>
+{% include youtubePlayer.html id=OR-vcVNXdKk %}
