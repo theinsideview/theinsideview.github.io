@@ -15,15 +15,7 @@ Walkthroughs of Alignment papers.
 
 ## How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions
 
-<div class="embed-container">
-  <iframe
-      src="https://www.youtube.com/embed/KR2_ulkzrd0"
-      width="420"
-      height="315"
-      frameborder="0"
-      allowfullscreen="">
-  </iframe>
-</div>
+{% include youtubePlayer.html id=KR2_ulkzrd0 %}
 
 # Interpretability
 
