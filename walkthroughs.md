@@ -28,48 +28,48 @@ Walkthroughs of Alignment papers.
 
 ## Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
 
-{% include youtubePlayer.html id=HAxd8DoZaW4 %}
+{% include youtubePlayer.html id="HAxd8DoZaW4" %}
 
 ## Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet
 
 # Sleeper Agents
 
-{% include youtubePlayer.html id=8Nyn3_ZWa_U %}
+{% include youtubePlayer.html id="8Nyn3_ZWa_U" %}
 
 ## Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training
 
-{% include youtubePlayer.html id=_y9j2BoHg2c %}
+{% include youtubePlayer.html id="_y9j2BoHg2c" %}
 
 ## Simple Probes Can Catch Sleeper Agents
 
-{% include youtubePlayer.html id=-cYdGfxtGag %}
+{% include youtubePlayer.html id="-cYdGfxtGag" %}
 
 # AI Control
 
 ## The case for ensuring that powerful AIs are controlled
 
-{% include youtubePlayer.html id=tVXOp-qC5aU %}
+{% include youtubePlayer.html id="tVXOp-qC5aU" %}
 
 ## Safety Cases: How to Justify the Safety of Advanced AI Systems
 
-{% include youtubePlayer.html id=lNscZfTp3kQ %}
+{% include youtubePlayer.html id="lNscZfTp3kQ" %}
 
 # AI Timelines
 
 ## The Full Takeoff Model (Part 1, Overview)
 
-{% include youtubePlayer.html id=7f8At1hNlYs %}
+{% include youtubePlayer.html id="7f8At1hNlYs" %}
 
 ## The Full Takeoff Model (Part 2, Takeoff speeds)
 
-{% include youtubePlayer.html id=hAyDaBebkoc %}
+{% include youtubePlayer.html id="hAyDaBebkoc" %}
 
 ## The Full Takeoff Model (Part 3, Economics)
 
-{% include youtubePlayer.html id=WnFx9jm68lY %}
+{% include youtubePlayer.html id="WnFx9jm68lY" %}
 
 # Deception
 
 ## How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions
 
-{% include youtubePlayer.html id=KR2_ulkzrd0 %}
+{% include youtubePlayer.html id="KR2_ulkzrd0" %}
