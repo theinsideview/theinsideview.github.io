@@ -1139,21 +1139,34 @@
         <div class="container">
             <h2>Watch SB-1047</h2>
             <p>The future of AI regulation affects us all. Be among the first to see this groundbreaking documentary and join the conversation about how we should govern our most powerful technology.</p>
-            <form action="#" method="POST" class="notify-form">
-                <div class="input-group">
-                    <input type="email" placeholder="Enter your email address..." required>
-                </div>
-                <button type="submit" class="btn">
-                    Get Notified
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.75 6.75L19.25 12L13.75 17.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M19 12H4.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                <p class="form-note">Get notified when the documentary launches. No spam.</p>
+
+            <!-- REPLACE ONLY THIS FORM PART -->
+            <form
+              action="https://formspree.io/f/xyzendrl"
+              method="POST"
+              class="notify-form"
+            >
+              <div class="input-group">
+                <input type="email" name="email" placeholder="Enter your email address..." required>
+              </div>
+              <button type="submit" class="btn">
+                Get Notified
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.75 6.75L19.25 12L13.75 17.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M19 12H4.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <p class="form-note">Get notified when the documentary launches. No spam.</p>
+
+              <!-- This hidden field helps identify the source of submissions -->
+              <input type="hidden" name="form-source" value="SB-1047 Documentary">
             </form>
+            <!-- END OF REPLACEMENT -->
+
         </div>
     </section>
+
+
 
     <section id="contact" class="contact">
         <div class="container">
@@ -1222,3 +1235,46 @@
             });
         });
     </script>
+
+        <!-- And then add this script near your other JavaScript at the bottom of the page -->
+        <script>
+            // Enhance Formspree submission with AJAX
+            const form = document.querySelector('.notify-form');
+            const formNote = document.querySelector('.form-note');
+
+            form.addEventListener('submit', function(e) {
+              e.preventDefault();
+
+              const formData = new FormData(form);
+
+              fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                  'Accept': 'application/json'
+                }
+              })
+              .then(response => {
+                if (response.ok) {
+                  // Success
+                  form.reset();
+                  formNote.textContent = "Thanks! We'll notify you when the documentary launches.";
+                  formNote.style.color = "#4BB543"; // Green color for success
+                } else {
+                  // Error
+                  response.json().then(data => {
+                    if (data.errors) {
+                      formNote.textContent = data.errors.map(error => error.message).join(", ");
+                    } else {
+                      formNote.textContent = "Oops! There was a problem submitting your form.";
+                    }
+                    formNote.style.color = "#FF3333"; // Red color for error
+                  });
+                }
+              })
+              .catch(error => {
+                formNote.textContent = "Oops! There was a problem submitting your form.";
+                formNote.style.color = "#FF3333"; // Red color for error
+              });
+            });
+          </script>
