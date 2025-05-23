@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2024: The Year of Artificial General Intelligence"
+title: "2024: The Year of AGI"
 category: podcast
 permalink: /shortfilm
 youtubeId: tpcA5T5QS30
