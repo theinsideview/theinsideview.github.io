@@ -1,7 +1,7 @@
 entries:
   - title: 'About'
     url: about
-  - title: 'Episodes'
+  - title: 'Content'
     post_list:
       category: podcast
       limit: 5
